@@ -6,7 +6,7 @@
 	<instruction>在过去2个星期，您曾多久一次受到以下任何问题的困扰？请如实作答</instruction>
 	<question>
 		<position>1</position>
-		<type>1</type>
+		
 		<content>观察到的抑郁</content>
 		<choice>无</choice>
 		<choice>介于上下两者之间</choice>
@@ -18,7 +18,7 @@
 	</question>
 	<question>
 		<position>2</position>
-		<type>1</type>
+		
 		<content>抑郁主诉</content>
 		<choice>在日常心境中偶有抑郁</choice>
 		<choice>介于上下两者之间</choice>
@@ -30,7 +30,7 @@
 	</question>
 	<question>
 		<position>3</position>
-		<type>1</type>
+		
 		<content>内心紧张</content>
 		<choice>平静，偶有瞬间的紧张</choice>
 		<choice>介于上下两者之间</choice>
@@ -42,7 +42,7 @@
 	</question>
 	<question>
 		<position>4</position>
-		<type>1</type>
+		
 		<content>睡眠减少</content>
 		<choice>睡眠如常</choice>
 		<choice>介于上下两者之间</choice>
@@ -54,7 +54,7 @@
 	</question>
 	<question>
 		<position>5</position>
-		<type>1</type>
+		
 		<content>食欲减退</content>
 		<choice>食欲正常或增加</choice>
 		<choice>介于上下两者之间</choice>
@@ -66,7 +66,7 @@
 	</question>
 	<question>
 		<position>6</position>
-		<type>1</type>
+		
 		<content>注意集中困难</content>
 		<choice>无</choice>
 		<choice>介于上下两者之间</choice>
@@ -78,7 +78,7 @@
 	</question>
 	<question>
 		<position>7</position>
-		<type>1</type>
+		
 		<content>懒散</content>
 		<choice>活动发动并无困难，动作不慢</choice>
 		<choice>介于上下两者之间</choice>
@@ -90,7 +90,7 @@
 	</question>
 	<question>
 		<position>8</position>
-		<type>1</type>
+		
 		<content>感受不能</content>
 		<choice>对周围的人和物的兴趣正常</choice>
 		<choice>介于上下两者之间</choice>
@@ -102,7 +102,7 @@
 	</question>
 	<question>
 		<position>9</position>
-		<type>1</type>
+		
 		<content>悲观思想</content>
 		<choice>无</choice>
 		<choice>介于上下两者之间</choice>
@@ -114,7 +114,7 @@
 	</question>
 	<question>
 		<position>10</position>
-		<type>1</type>
+		
 		<content>自杀观念</content>
 		<choice>无</choice>
 		<choice>介于上下两者之间</choice>
