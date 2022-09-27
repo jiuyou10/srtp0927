@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale>
+  <order>10</order>
+  <key>psqi</key>
+  <title>匹兹堡睡眠质量指数量表（PSQI）</title>
+  <instruction>下面一些问题是关于您最近1个月的睡眠情况，请选择或填写最符合您近1个月实际情况的答案。请回答下列问题。</instruction>
+  <question>
+    <position>1</position>
+    <content>近1个月，晚上上床睡觉通常{input}点钟。(24小时制)</content>
+  </question>
+  <question>
+    <position>2</position>
+    <content>近1个月，从上床到入睡通常需要{input}分钟。</content>
+  </question>
+  <question>
+    <position>3</position>
+    <content>近1个月，通常早上{input}点起床。(24小时制)</content>
+  </question>
+  <question>
+    <position>4</position>
+    <content>近1个月，每夜通常实际睡眠{input}小时（不等于卧床时间）。</content>
+  </question>
+  <question>
+    <position>5</position>
+    <parent>近1个月 ，因下列情况影响睡眠而烦恼：</parent>
+    <content>入睡困难（30分钟内不能入睡）</content>
+    <choice>过去1个月没有</choice>
+    <choice>每周平均少于1个晚上</choice>
+    <choice>每周平均1-2个晚上</choice>
+    <choice>每周平均3个或更多晚上</choice>
+  </question>
+  <question>
+    <position>6</position>
+    <parent>近1个月 ，因下列情况影响睡眠而烦恼：</parent>
+    <content>夜间易醒或早醒 </content>
+    <choice>过去1个月没有</choice>
+    <choice>每周平均少于1个晚上</choice>
+    <choice>每周平均1-2个晚上</choice>
+    <choice>每周平均3个或更多晚上</choice>
+  </question>
+  <question>
+    <position>7</position>
+    <parent>近1个月 ，因下列情况影响睡眠而烦恼：</parent>
+    <content>夜间去厕所</content>
+    <choice>过去1个月没有</choice>
+    <choice>每周平均少于1个晚上</choice>
+    <choice>每周平均1-2个晚上</choice>
+    <choice>每周平均3个或更多晚上</choice>
+  </question>
+  <question>
+    <position>8</position>
+    <parent>近1个月 ，因下列情况影响睡眠而烦恼：</parent>
+    <content>呼吸不畅</content>
+    <choice>过去1个月没有</choice>
+    <choice>每周平均少于1个晚上</choice>
+    <choice>每周平均1-2个晚上</choice>
+    <choice>每周平均3个或更多晚上</choice>
+  </question>
+  <question>
+    <position>9</position>
+    <parent>近1个月 ，因下列情况影响睡眠而烦恼：</parent>
+    <content>咳嗽或打鼾声</content>
+    <choice>过去1个月没有</choice>
+    <choice>每周平均少于1个晚上</choice>
+    <choice>每周平均1-2个晚上</choice>
+    <choice>每周平均3个或更多晚上</choice>
+  </question>
+  <question>
+    <position>10</position>
+    <parent>近1个月 ，因下列情况影响睡眠而烦恼：</parent>
+    <content>感觉寒冷</content>
+    <choice>过去1个月没有</choice>
+    <choice>每周平均少于1个晚上</choice>
+    <choice>每周平均1-2个晚上</choice>
+    <choice>每周平均3个或更多晚上</choice>
+  </question>
+  <question>
+    <position>11</position>
+    <parent>近1个月 ，因下列情况影响睡眠而烦恼：</parent>
+    <content>感觉太热</content>
+    <choice>过去1个月没有</choice>
+    <choice>每周平均少于1个晚上</choice>
+    <choice>每周平均1-2个晚上</choice>
+    <choice>每周平均3个或更多晚上</choice>
+  </question>
+  <question>
+    <position>12</position>
+    <parent>近1个月 ，因下列情况影响睡眠而烦恼：</parent>
+    <content>做恶梦</content>
+    <choice>过去1个月没有</choice>
+    <choice>每周平均少于1个晚上</choice>
+    <choice>每周平均1-2个晚上</choice>
+    <choice>每周平均3个或更多晚上</choice>
+  </question>
+  <question>
+    <position>13</position>
+    <parent>近1个月 ，因下列情况影响睡眠而烦恼：</parent>
+    <content>疼痛不适</content>
+    <choice>过去1个月没有</choice>
+    <choice>每周平均少于1个晚上</choice>
+    <choice>每周平均1-2个晚上</choice>
+    <choice>每周平均3个或更多晚上</choice>
+  </question>
+  <question>
+    <position>14</position>
+    <parent>近1个月 ，因下列情况影响睡眠而烦恼：</parent>
+    <content>其它影响睡眠的事情</content>
+    <choice>过去1个月没有</choice>
+    <choice>每周平均少于1个晚上</choice>
+    <choice>每周平均1-2个晚上</choice>
+    <choice>每周平均3个或更多晚上</choice>
+  </question>
+  <question>
+    <position>15</position>
+    <content>近1个月，总的来说，您认为自己的睡眠质量</content>
+    <choice>非常好</choice>
+    <choice>尚好</choice>
+    <choice>不好</choice>
+    <choice>非常差</choice>
+  </question>
+  <question>
+    <position>16</position>
+    <content>近1个月，你是否经常要服药（包括从医生处方或者从外面药店购买）才能入睡？</content>
+    <choice>过去1个月没有</choice>
+    <choice>每周平均少于1个晚上</choice>
+    <choice>每周平均1-2个晚上</choice>
+    <choice>每周平均3个或更多晚上</choice>
+  </question>
+  <question>
+    <position>17</position>
+    <content>近1个月，你在开车、吃饭或参加社会活动时难以保持清醒状态？ </content>
+    <choice>过去1个月没有</choice>
+    <choice>每周平均少于1个晚上</choice>
+    <choice>每周平均1-2个晚上</choice>
+    <choice>每周平均3个或更多晚上</choice>
+  </question>
+  <question>
+    <position>18</position>
+    <content>近1个月，你在积极完成事情上是否有困难？ </content>
+    <choice>没有困难</choice>
+    <choice>有一点困难</choice>
+    <choice>比较困难</choice>
+    <choice>非常困难</choice>
+  </question>
+</scale>

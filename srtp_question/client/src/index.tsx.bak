@@ -1,0 +1,353 @@
+/**
+ * @author Qiuran Hu
+ * @email qiuranh@gmail.com
+ * @create date 2021-04-26 10:50:05
+ * @modify date 2021-04-26 10:50:05
+ * @desc [description]
+ */
+import "@fontsource/noto-sans-sc/400.css";
+import {
+  ApolloClient,
+  ApolloProvider,
+  InMemoryCache,
+  useMutation,
+  HttpLink,
+} from "@apollo/client";
+import { onError } from "@apollo/client/link/error";
+import React, { useEffect, useRef, useState } from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import { DOCTOR_LOG_IN } from "./lib/graphql/mutations";
+import { Doctor, Patient, Viewer } from "./lib/type";
+import reportWebVitals from "./reportWebVitals";
+import {
+  BrowserRouter as Router,
+  Redirect,
+  Route,
+  Switch,
+} from "react-router-dom";
+import {
+  AppHeader,
+  Sider,
+  Home,
+  Login,
+  Form,
+  Report,
+  PatientInformation,
+  Welcome,
+  PromptMessage,
+  PatientLogin,
+  SecondLogin,
+  CreateDoctor,
+  DoctorConfig,
+} from "./sections";
+import {
+  createMuiTheme,
+  createStyles,
+  makeStyles,
+  Theme,
+  ThemeProvider,
+  Toolbar,
+} from "@material-ui/core";
+import { PrivateRoute } from "./lib/components/PrivateRoute";
+import { LoadingIndicator } from "./lib/components";
+import { zhCN } from "@material-ui/core/locale";
+import {
+  DoctorLogIn,
+  DoctorLogInVariables,
+} from "./lib/graphql/mutations/DoctorLogIn/__generated__/DoctorLogIn";
+import {
+  PatientLogIn,
+  PatientLogInVariables,
+} from "./lib/graphql/mutations/PatientLogIn/__generated__/PatientLogIn";
+import { PATIENT_LOG_IN } from "./lib/graphql/mutations/PatientLogIn";
+import "fontsource-roboto";
+import {
+  NO_DOCTOR_LOGIN_ERROR_MESSAGE,
+  NO_PATIENT_LOGIN_ERROR_MESSAGE,
+} from "./lib/utils/constants";
+
+const httpLink = new HttpLink({ uri: "/api" });
+
+const logoutLink = onError((errorHandler) => {
+  const graphQLErrors = errorHandler.graphQLErrors;
+  if (graphQLErrors)
+    for (let error of graphQLErrors) {
+      if (
+        error.message === NO_DOCTOR_LOGIN_ERROR_MESSAGE ||
+        error.message === NO_PATIENT_LOGIN_ERROR_MESSAGE
+      ) {
+        // eslint-disable-next-line no-restricted-globals
+        location.reload();
+        return;
+      }
+    }
+});
+
+const client = new ApolloClient({
+  uri: "/api",
+  cache: new InMemoryCache(),
+  link: logoutLink.concat(httpLink),
+  headers: { "X-CSRF_TOKEN": sessionStorage.getItem("token") || "" },
+});
+
+const initialViewer: Viewer = {
+  userName: null,
+  token: null,
+  didRequest: false,
+  catelogy: null,
+};
+
+const initialDoctor: Doctor = {
+  name: null,
+  userName: null,
+  didRequest: false,
+};
+
+const useStyles = makeStyles((theme: Theme) =>
+  createStyles({
+    root: {
+      display: "flex",
+      height: "100%",
+    },
+    contentContainer: {
+      flexGrow: 1,
+      height: "100%",
+    },
+  })
+);
+
+export const PRIMARY_COLOR = "#1a73e8";
+const App = () => {
+  const classes = useStyles();
+
+  // const [viewer, setViewer] = useState<Viewer>(initialViewer);
+  const [doctor, setDoctor] = useState<Doctor>(initialDoctor);
+  const [patient, setPatient] = useState<Patient>(initialViewer);
+  const [isSiderOpen, setIsSiderOpen] = useState(false);
+  // const [logIn] = useMutation<LogInData, LogInVariables>(LOG_IN, {
+  //   onCompleted: (data) => {
+  //     if (data && data.logIn) {
+  //       setViewer(data.logIn);
+  //       if (data.logIn.token) {
+  //         sessionStorage.setItem("token", data.logIn.token);
+  //       } else {
+  //         sessionStorage.removeItem("token");
+  //       }
+  //     }
+  //   },
+  // });
+  // const logInRef = useRef(logIn);
+  const [doctorLogIn, { loading: doctorLogInLoading }] = useMutation<
+    DoctorLogIn,
+    DoctorLogInVariables
+  >(DOCTOR_LOG_IN, {
+    onCompleted: (data) => {
+      if (data && data.doctorLogIn) {
+        const { name, userName, didRequest } = data.doctorLogIn;
+        setDoctor({
+          name,
+          userName,
+          didRequest,
+        });
+      }
+    },
+  });
+  const doctorLogInRef = useRef(doctorLogIn);
+
+  const [patientLogIn, { loading: patientLogInLoading }] = useMutation<
+    PatientLogIn,
+    PatientLogInVariables
+  >(PATIENT_LOG_IN, {
+    onCompleted: (data) => {
+      if (data && data.patientLogIn) {
+        setPatient(data.patientLogIn);
+      }
+    },
+  });
+
+  const patientLogInRef = useRef(patientLogIn);
+  useEffect(() => {
+    doctorLogInRef.current();
+    // logInRef.current();
+    patientLogInRef.current();
+  }, []);
+  if (
+    doctorLogInLoading ||
+    !doctor.didRequest ||
+    patientLogInLoading ||
+    !patient.didRequest
+  ) {
+    return <LoadingIndicator />;
+  }
+  const isAuthorized = !!doctor.userName;
+  return (
+    <Router>
+      {/** App Header */}
+      <Switch>
+        <Route exact path="/" />
+        <Route exact path="/user/prompt" />
+        <Route exact path="/user/login" />
+        <Route path="/user/home" />
+        <Route path="/doctor">
+          <AppHeader
+            viewer={doctor}
+            setViewer={setDoctor}
+            type="doctor"
+            setIsSiderOpen={setIsSiderOpen}
+          />
+          <Switch>
+            <Route exact path="/" />
+          </Switch>
+        </Route>
+      </Switch>
+
+      <Switch>
+        <Route exact path="/login">
+          <Login
+            isAuthorized={isAuthorized}
+            setViewer={setDoctor}
+            setDoctor={setDoctor}
+            doctor={doctor}
+          />
+        </Route>
+        <Route
+          exact
+          path="/doctor"
+          render={({ location }) => (
+            <Redirect to={{ pathname: "user/prompt", state: { from: location } }} />
+          )}
+        />
+
+        <PrivateRoute isAuthorized={isAuthorized} path="/user" exact>
+          <Welcome
+            setDoctor={setDoctor}
+            doctor={doctor}
+            logIn={doctorLogInRef.current}
+          />
+        </PrivateRoute>
+        <PrivateRoute isAuthorized={isAuthorized} path="/user/login" exact>
+          <PatientLogin setPatient={setPatient} patient={patient} />
+        </PrivateRoute>
+        <Route isAuthorized={isAuthorized} path="/user/secondlogin" exact>
+          //<SecondLogin setPatient={setPatient} patient={patient} />
+          <SecondLogin setPatient={setPatient} patient={{name:"admin",userName:"admin",didRequest:true}} />
+        </Route>
+        {patient.userName && (
+          <PrivateRoute isAuthorized={isAuthorized} path="/user/prompt" exact>
+            <PromptMessage />
+          </PrivateRoute>
+        )}
+        {doctor.userName && (
+          <PrivateRoute
+            isAuthorized={isAuthorized}
+            path={`/doctor/${doctor.userName}`}
+          >
+            <div className={classes.root}>
+              <Sider
+                viewer={doctor}
+                type="doctor"
+                open={isSiderOpen}
+                onClose={() => setIsSiderOpen(false)}
+              />
+              <div className={classes.contentContainer}>
+                <Toolbar />
+                <Switch>
+                  <Route
+                    exact
+                    path={`/doctor/${doctor.userName}`}
+                    component={PatientInformation}
+                  />
+                  <Route
+                    exact
+                    path={`/doctor/${doctor.userName}/manage`}
+                    component={CreateDoctor}
+                  />
+                  <Route
+                    exact
+                    path={`/doctor/${doctor.userName}/config`}
+                    component={DoctorConfig}
+                  />
+                </Switch>
+              </div>
+            </div>
+          </PrivateRoute>
+        )}
+        {doctor.userName && (
+          <PrivateRoute isAuthorized={isAuthorized} path="/doctor">
+            <Redirect to="/doctor" />
+          </PrivateRoute>
+        )}
+        {patient.userName && (
+          <Route isAuthorized={isAuthorized} path="/user">
+            <AppHeader viewer={patient} setViewer={setPatient} type="user" />
+            <Switch>
+              <Route isAuthorized={isAuthorized} path="/user/form" exact>
+                <Form patient={patient} />
+              </Route>
+
+              <Route isAuthorized={isAuthorized} path="/user">
+                <div className={classes.root}>
+                  <Sider viewer={patient} type="user" />
+                  <div className={classes.contentContainer}>
+                    <Toolbar />
+                    <Switch>
+                      <Route exact path="/user/home">
+                        <Home patient={patient} />
+                      </Route>
+                      <Route exact path="/user/report">
+                        <Report patientName={patient.name || undefined} />
+                      </Route>
+                    </Switch>
+                  </div>
+                </div>
+              </Route>
+            </Switch>
+          </Route>
+        )}
+        <Route isAuthorized={isAuthorized} path="/user">
+          <></>
+        </Route>
+        <PrivateRoute isAuthorized={isAuthorized} path="/doctor">
+          <></>
+        </PrivateRoute>
+        <Route exact path="/">
+          <Redirect to="/user" />
+        </Route>
+      </Switch>
+    </Router>
+  );
+};
+
+const theme = createMuiTheme(
+  {
+    palette: {
+      primary: {
+        light: "#6a9dff",
+        main: PRIMARY_COLOR,
+        dark: "#0045b5",
+        contrastText: "#fff",
+      },
+      secondary: {
+        light: "#ff7961",
+        main: "#f44336",
+        dark: "#ba000d",
+        contrastText: "#000",
+      },
+    },
+  },
+  zhCN
+);
+ReactDOM.render(
+  <ApolloProvider client={client}>
+    <ThemeProvider theme={theme}>
+      <App />
+    </ThemeProvider>
+  </ApolloProvider>,
+  document.getElementById("root")
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();

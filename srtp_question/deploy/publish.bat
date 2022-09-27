@@ -1,0 +1,1 @@
+nexe src/index.js --target windows-x64-14.15.3

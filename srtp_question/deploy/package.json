@@ -1,0 +1,23 @@
+{
+  "name": "questionnaire-deploy",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@types/compression": "^1.7.0",
+    "@types/cookie-parser": "^1.4.2",
+    "apollo-server-express": "^2.18.2",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "graphql": "^15.4.0",
+    "html-pdf-node": "^1.0.7",
+    "lodash.merge": "^4.6.2",
+    "mongodb": "^3.6.2"
+  },
+  "devDependencies": {}
+}

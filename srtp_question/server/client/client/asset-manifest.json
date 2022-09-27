@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.85f0735d.chunk.css",
+    "main.js": "/static/js/main.c1c58eea.chunk.js",
+    "main.js.map": "/static/js/main.c1c58eea.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9bc5cf82.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9bc5cf82.js.map",
+    "static/css/2.6b103532.chunk.css": "/static/css/2.6b103532.chunk.css",
+    "static/js/2.ddb113ec.chunk.js": "/static/js/2.ddb113ec.chunk.js",
+    "static/js/2.ddb113ec.chunk.js.map": "/static/js/2.ddb113ec.chunk.js.map",
+    "static/js/3.79d3e7cd.chunk.js": "/static/js/3.79d3e7cd.chunk.js",
+    "static/js/3.79d3e7cd.chunk.js.map": "/static/js/3.79d3e7cd.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.6b103532.chunk.css.map": "/static/css/2.6b103532.chunk.css.map",
+    "static/css/main.85f0735d.chunk.css.map": "/static/css/main.85f0735d.chunk.css.map",
+    "static/js/2.ddb113ec.chunk.js.LICENSE.txt": "/static/js/2.ddb113ec.chunk.js.LICENSE.txt",
+    "static/media/cardIcon.2b436e10.png": "/static/media/cardIcon.2b436e10.png",
+    "static/media/logo.bcf589ff.png": "/static/media/logo.bcf589ff.png",
+    "static/media/400.css": "/static/media/noto-sans-sc-all-400-normal.06747fa4.woff",
+    "static/media/index.css": "/static/media/roboto-vietnamese-400-normal.52cebac0.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9bc5cf82.js",
+    "static/css/2.6b103532.chunk.css",
+    "static/js/2.ddb113ec.chunk.js",
+    "static/css/main.85f0735d.chunk.css",
+    "static/js/main.c1c58eea.chunk.js"
+  ]
+}

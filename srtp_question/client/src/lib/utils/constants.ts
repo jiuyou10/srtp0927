@@ -1,0 +1,11 @@
+export const EYSCENCK_FORM_NAME = "艾森克个性测试（EPQ）";
+export const EYSCENCK_CHILDREN_FORM_NAME = "艾森克个性测试儿童版（EPQ）";
+export const SCL_90_NAME = "90项症状清单（SCL-90）";
+export const YAML_BROWN_FORM_KEY = "yale-brown";
+export const PSSS_FORM_KEY = "psss";
+export const MDQ_FORM_KEY = "mdq";
+export const PSQI_FORM_KEY = "psqi";
+export const PHCSS_FORM_KEY = "phcss";
+export const EMBU_FORM_KEY = "embu";
+export const NO_DOCTOR_LOGIN_ERROR_MESSAGE = "No doctor login!";
+export const NO_PATIENT_LOGIN_ERROR_MESSAGE = "No patient login!";

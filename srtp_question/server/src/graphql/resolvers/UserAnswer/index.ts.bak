@@ -1,0 +1,245 @@
+import { IResolvers } from "apollo-server-express";
+import { ObjectId } from "mongodb";
+import { Database } from "../../../lib/type";
+import {
+  SaveResult,
+  UserAnswer,
+  UserAnswerArgs,
+  UserAnswerInput,
+} from "./types";
+import { Request } from "express";
+import {
+  calculateEmbuResult,
+  calculateEpdsResult,
+  calculateEpqChildrenResult,
+  calculateEpqResult,
+  calculateGad7Result,
+  calculateHcl32Result,
+  calculateMdqResult,
+  calculatePhcssResult,
+  calculatePhq7Result,
+  calculatePsqiResult,
+  calculatePsssResult,
+  calculateScl90Result,
+  calculateYaleBrownResult,
+  calculatePSS10Result,
+  calculateHAMAResult,
+  calculateASRSResult,
+  calculateHAMDResult,
+  calculateHAMSResult,
+  calculateCPSSResult,
+  calculateCPOResult,
+  calculatePTEDResult,
+  calculateNTTResult,
+} from "./calculateFormAnswer";
+
+export interface Answer {
+  questionnaireId: ObjectId;
+  userId: ObjectId;
+  answers: number[];
+  fillInDate: Date;
+}
+
+const calculateResult = async (
+  answer: Answer,
+  db: Database,
+  userId: ObjectId
+): Promise<string | number> => {
+  const questionnaire = await db.questionnaires.findOne({
+    _id: answer.questionnaireId,
+  });
+  if (questionnaire && questionnaire.name) {
+    switch (questionnaire.key) {
+      case "gad-7": {
+        return await calculateGad7Result(answer, db, userId);
+      }
+      case "phq-9": {
+        return await calculatePhq7Result(answer, db, userId);
+      }
+      case "scl-90": {
+        const result = await calculateScl90Result(answer, db, userId);
+        return JSON.stringify(result);
+      }
+      case "epq": {
+        const result = await calculateEpqResult(answer, db, userId);
+        return JSON.stringify(result);
+      }
+      case "children-epq": {
+        const result = await calculateEpqChildrenResult(answer, db, userId);
+        return JSON.stringify(result);
+      }
+      case "yale-brown": {
+        const result = await calculateYaleBrownResult(answer, db, userId);
+        return JSON.stringify(result);
+      }
+      case "hcl-32": {
+        const result = await calculateHcl32Result(answer, db, userId);
+        return result;
+      }
+      case "epds": {
+        const result = await calculateEpdsResult(answer, db, userId);
+        return result;
+      }
+      case "psss": {
+        const result = await calculatePsssResult(answer, db, userId);
+        return JSON.stringify(result);
+      }
+      case "mdq": {
+        const result = await calculateMdqResult(answer, db, userId);
+        return JSON.stringify(result);
+      }
+      case "psqi": {
+        const result = await calculatePsqiResult(answer, db, userId);
+        return JSON.stringify(result);
+      }
+      case "phcss": {
+        const result = await calculatePhcssResult(answer, db, userId);
+        return JSON.stringify(result);
+      }
+      case "embu": {
+        const result = await calculateEmbuResult(answer, db, userId);
+        return JSON.stringify(result);
+      }
+      case "PSS-10": {
+        const result = await calculatePSS10Result(answer, db, userId);
+        return JSON.stringify(result);
+      }
+	  case "HAMA": {
+        const result = await calculateHAMAResult(answer, db, userId);
+        return JSON.stringify(result);
+      }
+	  case "ASRS": {
+        const result = await calculateASRSResult(answer, db, userId);
+        return JSON.stringify(result);
+      }
+	  case "HAMD": {
+        const result = await calculateHAMDResult(answer, db, userId);
+        return JSON.stringify(result);
+      }
+	  case "HAMS": {
+        const result = await calculateHAMSResult(answer, db, userId);
+        return JSON.stringify(result);
+      }
+	  case "HAMS": {
+        const result = await calculateHAMSResult(answer, db, userId);
+        return JSON.stringify(result);
+      }
+	  case "HAMS": {
+        const result = await calculateHAMSResult(answer, db, userId);
+        return JSON.stringify(result);
+      }
+	  case "HAMS": {
+        const result = await calculateHAMSResult(answer, db, userId);
+        return JSON.stringify(result);
+      }
+	  case "HAMS": {
+        const result = await calculateHAMSResult(answer, db, userId);
+        return JSON.stringify(result);
+      }
+    }
+  }
+  throw new Error("Cannot calculate result");
+};
+
+const saveAnswers = async (
+  isPartial: boolean,
+  db: Database,
+  req: Request,
+  input: UserAnswerInput["input"]
+): Promise<SaveResult> => {
+  const { answers, questionnaireId } = input;
+  const userId = new ObjectId(req.signedCookies.patient);
+  try {
+    const answer = {
+      questionnaireId: new ObjectId(questionnaireId),
+      userId,
+      answers,
+      fillInDate: new Date(),
+    };
+    if (isPartial) {
+      db.partialAnswers.findOneAndReplace(
+        {
+          userId,
+          questionnaireId: new ObjectId(questionnaireId),
+        },
+        answer,
+        { upsert: true }
+      );
+    } else {
+      db.userAnswers.insertOne({
+        ...answer,
+        doctor: new ObjectId(req.signedCookies.doctor),
+        result: await calculateResult(answer, db, userId),
+      });
+      db.partialAnswers.findOneAndDelete({
+        userId,
+        questionnaireId: new ObjectId(questionnaireId),
+      });
+    }
+    return {
+      didRequest: true as const,
+    };
+  } catch (e) {
+    console.log(e);
+    throw new Error("Failed to save answer.");
+  }
+};
+
+const getUserAnswer = async (
+  isPartial: boolean,
+  req: Request,
+  db: Database,
+  questionnaireId: string
+): Promise<UserAnswer> => {
+  try {
+    const userId = new ObjectId(req.signedCookies.patient);
+    const queryParams = {
+      questionnaireId: new ObjectId(questionnaireId),
+      userId: new ObjectId(userId),
+    };
+    const userAnswer = isPartial
+      ? await db.partialAnswers.findOne(queryParams)
+      : await db.userAnswers.findOne(queryParams);
+    const answers = userAnswer ? userAnswer.answers : [];
+    return {
+      answers,
+      ...(isPartial ? { date: userAnswer?.fillInDate } : {}),
+    };
+  } catch {
+    throw new Error("Failed to fetch answer record.");
+  }
+};
+export const userAnswerResolvers: IResolvers = {
+  Query: {
+    userAnswer: async (
+      _root: undefined,
+      { questionnaireId }: UserAnswerArgs,
+      { db, req }: { db: Database; req: Request }
+    ): Promise<UserAnswer> => {
+      return await getUserAnswer(false, req, db, questionnaireId);
+    },
+    partialAnswer: async (
+      _root: undefined,
+      { questionnaireId }: UserAnswerArgs,
+      { db, req }: { db: Database; req: Request }
+    ): Promise<UserAnswer> => {
+      return await getUserAnswer(true, req, db, questionnaireId);
+    },
+  },
+  Mutation: {
+    saveUserAnswer: async (
+      _root: undefined,
+      { input }: UserAnswerInput,
+      { db, req }: { db: Database; req: Request }
+    ): Promise<SaveResult> => {
+      return saveAnswers(false, db, req, input);
+    },
+    savePartialAnswer: async (
+      _root: undefined,
+      { input }: UserAnswerInput,
+      { db, req }: { db: Database; req: Request }
+    ): Promise<SaveResult> => {
+      return saveAnswers(true, db, req, input);
+    },
+  },
+};

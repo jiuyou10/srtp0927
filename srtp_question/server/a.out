@@ -1,0 +1,3412 @@
+
+> questionnaire-server@0.1.0 seed D:\questionnaire-main\server
+> ts-node src/temp/seed.ts
+
+[seed]: running...
+{
+  name: '鑹炬．鍏嬩釜鎬ф祴璇曞効绔ョ増锛圗PQ锛?,
+  instruction: '涓嬮潰鐨勯棶棰橈紝璇锋牴鎹偍涓€鐩翠互鏉ョ殑鐘跺喌閫夋嫨涓€涓渶绗﹀悎鎮ㄧ湡瀹炴儏鍐电殑閫夐」锛岃繖閲屽苟娌℃湁姝ｇ‘鎴栭敊璇殑绛旀锛岃濡傚疄浣滅瓟',
+  questions: [
+    {
+      position: '1',
+      content: '浣犲枩娆㈠懆鍥存湁璁稿浣夸綘楂樺叴鐨勪簨鎯呭悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '2',
+      content: '浣犵埍鐢熸皵鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '3',
+      content: '浣犲枩娆激瀹充綘鍠滄鐨勪汉鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '4',
+      content: '浣犺椽鍥捐繃鍒汉鐨勪究瀹滃悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '5',
+      content: '涓庡埆浜轰氦璋堟椂锛屼綘鍑犱箮鎬绘槸寰堝揩鐨勫洖绛斿埆浜虹殑闂鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '6',
+      content: '浣犲緢瀹规槗鎰熷埌鍘岀儲鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '7',
+      content: '鏈夋椂浣犲枩娆㈠紑涓€浜涚殑纭娇浜轰激蹇冪殑鐜╃瑧鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '8',
+      content: '浣犱綘鎬绘槸绔嬪嵆鎸夊埆浜虹殑鍚╁拹鍘诲仛鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '9',
+      content: '浣犲畞鎰垮崟鐙竴浜鸿€屼笉鎰垮拰鍏跺畠灏忔湅鍙嬪湪涓€閬撶帺鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '10',
+      content: '鏈夊緢澶氬康澶村崰鎹綘鐨勫ご鑴戜娇浣犱笉鑳藉叆鐫″悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '11',
+      content: '浣犲湪瀛︽牎鏇捐繚鍙嶈繃瑙勭珷鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '12',
+      content: '浣犲枩娆㈠叾瀹冨皬鏈嬪弸鎬曚綘鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '13',
+      content: '浣犲緢娲绘臣鍚?',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '14',
+      content: '鏈夎澶氫簨鎯呬娇浣犵儲鎭煎悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '15',
+      content: '鍦ㄤ笂鐢熺墿璇炬椂浣犲枩娆㈡潃鍔ㄧ墿鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '16',
+      content: '浣犳浘鎷胯繃鍒汉鐨勪笢瑗匡紙鐢氳嚦涓€涓硸鏋溿€佷竴鏀搮绗旓級鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '17',
+      content: '浣犳湁璁稿鏈嬪弸鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '18',
+      content: '浣犳湁鏃犵紭鏃犳晠鍦拌寰椻€滅湡鏄毦鍙椻€濆悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '19',
+      content: '鏈夋椂浣犲枩娆㈤€楀紕鍔ㄧ墿鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '20',
+      content: '鍒汉鍙綘鏃讹紝浣犳湁杩囪浣滄病鍚鐨勪簨鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '21',
+      content: '浣犲枩娆㈠湪鍙よ€佺殑闂归鐨勫博娲炰腑鎺㈤櫓鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '22',
+      content: '浣犲父鎰熻鐢熸椿闈炲父鏃犲懗鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '23',
+      content: '浣犳瘮澶у鏁板皬瀛╂洿鐖卞惖鍢存墦鏋跺悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '24',
+      content: '浣犳€绘槸瀹屾垚瀹跺涵浣滀笟鍚庢墠鍘荤帺鑰嶅悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '25',
+      content: '浣犲枩娆㈠仛涓€浜涘姩浣滆蹇殑浜嬫儏鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '26',
+      content: '浣犳媴蹇冧細鍙戠敓涓€浜涘彲鎬曠殑浜嬫儏鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '27',
+      content: '褰撳惉鍒板埆鐨勫瀛愰獋鎬瘽锛屼綘鍒舵浠栦滑鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '28',
+      content: '浣犺兘浣夸竴涓櫄浼氶『鍒╁紑涓嬪幓鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '29',
+      content: '褰撲汉浠彂鐜颁綘鐨勯敊璇垨浣犲伐浣滀腑鐨勭己鐐规椂锛屼綘瀹规槗浼ゅ績鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '30',
+      content: '鐪嬭涓€鍙垰杈楁鐨勫皬鐙椾綘浼氶毦杩囧悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '31',
+      content: '褰撲綘绮楅瞾澶辩ぜ鏃讹紝鎬昏鍚戝埆浜洪亾姝夊悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '32',
+      content: '鏄笉鏄湁浜鸿涓轰綘鍋氫簡瀵逛粬浠笉璧风殑浜嬶紝浠栦滑涓€鐩存兂鎶ュ浣犲悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '33',
+      content: '浣犺涓烘粦闆ソ鐜╁悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '34',
+      content: '浣犲父鏃犵紭鏃犳晠瑙夊緱鐤蹭箯鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '35',
+      content: '浣犲緢鍠滄鍙栫瑧鍏朵粬鐨勫皬鏈嬪弸鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '36',
+      content: '鎴愬勾浜鸿皥璇濇椂锛屼綘鎬绘槸淇濇寔瀹夐潤锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '37',
+      content: '浜ゆ柊鏈嬪弸鏃讹紝閫氬父鏄綘閲囧彇涓诲姩鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '38',
+      content: '浣犱负鏌愪簺浜嬫儏鍙戣劸姘斿悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '39',
+      content: '浣犲父鎵撴灦鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '40',
+      content: '浣犺杩囧埆浜虹殑鍧忚瘽鎴栦笅娴佽瘽鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '41',
+      content: '浣犲枩娆㈢粰浣犵殑鏈嬪弸璁茬瑧璇濇垨婊戠ń鏁呬簨鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '42',
+      content: '浣犳湁涓€闃甸樀澶存檿鐨勬劅瑙夊悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '43',
+      content: '鍦ㄥ鏍￠噷锛屼綘姣斿ぇ澶氭暟鍎跨鏇存槗鍙楃綒鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '44',
+      content: '閫氬父浣犱細鎷捐捣鍒汉鎵斿湪鏁欏鍦版澘涓婄殑搴熺焊鍜屽瀮鍦惧悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '45',
+      content: '浣犳湁璁稿璇句綑鐖卞ソ鍜屽ū涔愬悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '46',
+      content: '浣犵殑鎰熸儏寰堣剢寮卞悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '47',
+      content: '浣犲枩娆㈡崏寮勪汉鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '48',
+      content: '浣犳€昏鍦ㄩキ鍓嶆礂鎵嬪悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '49',
+      content: '鍦ㄦ枃濞辨椿鍔ㄤ腑锛屼綘瀹佹効鍧愮潃鐪嬭€屼笉鎰夸翰鑷弬鍔犲悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '50',
+      content: '浣犲父甯告劅鍒板帉鍊﹀悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '51',
+      content: '鏈夋椂鎰熷埌涓€浼欎汉鍙栫瑧鎴栨渚竴涓皬瀛╂槸浣犳劅鍒板緢濂界帺鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '52',
+      content: '璇惧爞涓婁綘甯镐繚鎸佸畨闈欙紝鐢氳嚦鑰佸笀涓嶅湪鏁欏涔熷姝ゅ悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '53',
+      content: '浣犲枩娆㈠共鐐瑰悡鍞汉鐨勪簨鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '54',
+      content: '浣犳湁鏃朵笉瀹夛紝浠ヨ嚧涓嶈兘鍦ㄦ瀛愪笂闈欓潤鍦板潗涓€浼氬悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '55',
+      content: '浣犳効鎰忓崟鐙笂鏈堢悆鍘诲悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '56',
+      content: '寮€浼氭椂鍒汉鍞辨瓕锛屼綘涔熸€绘槸涓€閬撳敱鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '57',
+      content: '浣犲枩娆笌鍒殑灏忓鍚堢兢鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '58',
+      content: '浣犲仛璁稿鎭舵ⅵ鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '59',
+      content: '浣犵殑鐖舵瘝瀵逛綘闈炲父涓ュ帀鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '60',
+      content: '浣犲枩娆笉鍛婅瘔浠讳綍浜虹嫭鑷瀹跺埌澶栭潰鍘绘极娓稿悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '61',
+      content: '浣犲枩娆㈣烦闄嶈惤浼炲悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '62',
+      content: '浣犲鏋滆寰楄嚜宸卞共浜嗕欢锠簨锛屼綘鍚庢倲寰堜箙鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '63',
+      content: '鍚冮キ鏃舵憜涓婃鐨勯鐗╀綘甯稿父鏍锋牱閮藉悆鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '64',
+      content: '鍦ㄧ儹闂圭殑鏅氫細涓婏紝浣犺兘涓诲姩鍙傚姞骞跺敖鎯呯帺鑰嶅悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '65',
+      content: '鏈夋椂浣犺寰椾笉鍊煎緱娲讳笅鍘诲悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '66',
+      content: '浣犱細涓鸿惤鍏ョ寧浜洪櫡浜曠殑鍔ㄧ墿闅捐繃鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '67',
+      content: '浣犳湁涓嶅皧閲嶇埗姣嶇殑琛屼负鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '68',
+      content: '浣犲父甯哥獊鐒朵笅鍐冲績瑕佸共寰堝浜嬫儏鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '69',
+      content: '鍋氫綔涓氭椂锛屼綘鎬濇兂寮€灏忓樊鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '70',
+      content: '褰撳埆鐨勫瀛愬浣犲惣鍙椂锛屼綘涔熺敤鍚煎彨鏉ュ洖鎶ヤ粬浠悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '71',
+      content: '浣犲枩娆㈡綔姘存垨璺虫按鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '72',
+      content: '澶滈棿浣犲洜涓轰竴浜涗簨鎯呰嫤鎭艰€屾湁杩囧け鐪犲悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '73',
+      content: '浣犲湪瀛︽牎鎴栧浘涔﹂鐨勪功涓婁贡鍐欎贡鐢诲悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '74',
+      content: '浣犲湪瀹朵腑鏄惁濂藉儚鑰佹槸鎰熷埌鑻︽伡鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '75',
+      content: '鍒汉璁や负浣犲緢娲绘臣鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '76',
+      content: '浣犲父瑙夊緱瀛ゅ崟鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '77',
+      content: '浣犲鍒汉鐨勪笢瑗挎€绘槸鐗瑰埆灏忓績鐖辨姢鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '78',
+      content: '浣犳€绘槸灏嗚嚜宸辩殑鍏ㄩ儴绯栨灉涓庡埆浜哄垎鐫€鍚冨悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '79',
+      content: '浣犲緢鍠滄澶栧嚭鐜╄€嶅悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '80',
+      content: '浣犲湪娓告垙涓湁杩囧紕铏氫綔鍋囧悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '81',
+      content: '鏈夋椂浣犳棤缂樻棤鏁呮劅鍒扮壒鍒珮鍏达紝鑰屾湁鏃跺張鏃犵紭鏃犳晠鎰熷埌鐗瑰埆鎮蹭激鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '82',
+      content: '鎵句笉鍒板簾绾哥瓙鏃朵綘鎶婂簾绾告墧鍦ㄥ湴涓婂悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '83',
+      content: '浣犵粡甯告劅鍒板垢绂忓拰鎰夊揩鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '84',
+      content: '浣犲仛浜嬫儏寰€寰€涓嶅厛鎯充竴鎯冲悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '85',
+      content: '浣犺涓鸿嚜宸辨槸涓€涓棤蹇ф棤铏戠殑浜哄悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '86',
+      content: '浣犲父闇€瑕佺儹蹇冪殑鏈嬪弸涓庝綘鍦ㄤ竴璧蜂娇浣犻珮鍏村悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '87',
+      content: '浣犳浘缁忔崯鍧忔垨閬楀け杩囧埆浜虹殑涓滆タ鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '88',
+      content: '浣犲枩娆箻鍧愬紑寰楀緢蹇殑鎽╂墭杞﹀悧锛?,
+      choices: [Array],
+      parent: undefined
+    }
+  ],
+  order: 4,
+  key: 'children-epq'
+}
+{
+  name: '鐖变竵鍫′骇鍚庢姂閮侀噺琛紙EPDS锛?,
+  instruction: '璇蜂粩缁嗛槄璇绘瘡涓」鐩苟鑰冭檻鍝釜鎯呭喌涓庤嚜宸辨渶绗﹀悎銆備笉鍙槸鎮ㄤ粖澶╃殑鎰熷彈锛岃€屾槸浠庡垎濞╄嚦浠婄殑鎰熷彈銆備笉蹇呰€冭檻浣犳墍閫夋嫨鐨勭瓟妗堢殑涓€鑷存€с€傚湪鍥涗釜寰呴€夐」鐩綘鎵€閫夋嫨鐨勯€夐」涓嬮潰鎵撻挬銆?,
+  questions: [
+    {
+      position: '1',
+      content: '鎴戣兘鐪嬪埌浜嬬墿鏈夎叮鐨勪竴闈紝骞剁瑧鐨勫紑蹇?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '2',
+      content: '鎴戣兘娆ｇ劧鏈熷緟鏈潵鐨勪竴鍒?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '3',
+      content: '褰撲簨鎯呭嚭閿欐椂锛屾垜浼氫笉蹇呰鍦拌矗澶囪嚜宸?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '4',
+      content: '鎴戞棤缂樻棤鏁呮劅鍒扮劍铏戝拰鎷呭績',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '5',
+      content: '鎴戞棤缂樻棤鏁呮劅鍒板鎬曞拰鎯婃厡',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '6',
+      content: '寰堝浜嬫儏鍐茬潃鎴戞潵锛屼娇鎴戦€忎笉杩囨皵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '7',
+      content: '鎴戝緢涓嶅紑蹇冿紝浠ヨ嚦澶辩湢',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '8',
+      content: '鎴戞劅鍒伴毦杩囧拰鎮蹭激',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '9',
+      content: '鎴戜笉寮€蹇冨埌鍝?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '10',
+      content: '鎴戞兂杩囪浼ゅ鑷繁',
+      choices: [Array],
+      parent: undefined
+    }
+  ],
+  order: 7,
+  key: 'epds'
+}
+{
+  name: '鐖舵瘝鍏昏偛鏂瑰紡璇勪环閲忚〃锛圗MBU锛?,
+  instruction: '鐖舵瘝鐨勬暀鍏绘柟寮忓瀛愬コ瀵瑰彂灞曞拰鎴愰暱鏄嚦鍏抽噸瑕佺殑銆傝鎮ㄧ‘鍒囧洖蹇嗗皬鏃剁埗姣嶅鎮ㄨ鏁欑殑绗竴缁嗚妭鏄緢鍥伴毦鐨勩€備絾鎴戜滑姣忎釜浜洪兘瀵规垜浠垚闀胯繃绋嬩腑鐖舵瘝瀵瑰緟鎴戜滑鐨勬柟寮忔湁娣卞埢鍗拌薄銆傚洖绛旇繖涓€闂嵎锛屽氨鏄鎮ㄥ姫鍔涘洖鎯冲皬鏃跺€欑暀涓嬬殑杩欎簺鍗拌薄銆傞棶鍗锋湁寰堝棰樼洰缁勶紝姣忎釜棰樼洰绛旀鍧囨湁鍥涗釜绛夌骇銆傝鎮ㄥ垎鍒€夋嫨鏈€閫傚悎鎮ㄧ埗浜插拰鎮ㄦ瘝浜茬殑绛夌骇銆傛瘡棰樺彧鍑嗛€変竴涓瓟妗堛€傛偍鐖朵翰鍜屾瘝浜插鎮ㄥ鏁欏吇鏂瑰紡鍙兘鏄浉鍚岀殑锛屼篃鍙兘鏄笉鍚岀殑銆傝鎮ㄥ疄浜嬫眰鏄湴鍒嗗埆鍥炵瓟銆傚鏋滄偍骞煎皬鏃跺€欑埗姣嶄笉鍏紝鍙互鍙洖绛旂埗浜叉垨姣嶄翰涓€鏍忋€傚鏋滄槸鐙敓瀛愬コ锛屾病鏈夊厔寮熷濡癸紝鐩稿叧鐨勯鍙互涓嶇瓟銆傞棶鍗蜂笉璁板悕锛岃鎮ㄥ瀹炲洖绛斻€?,
+  questions: [
+    {
+      position: '1',
+      content: '鎴戣寰楃埗姣嶅共娑夋垜鎵€鍋氱殑姣忎竴浠朵簨銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '2',
+      content: '鎴戣兘閫氳繃鐖舵瘝鐨勮█璋堛€佽〃鎯呮劅鍙椾粬(濂?寰堝枩娆㈡垜銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '3',
+      content: '涓庢垜瀹跺涵鍏朵粬鎴愬憳鐩告瘮锛岀埗姣嶆洿瀹犵埍鎴戙€?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '4',
+      content: '鎴戣兘鎰熷埌鐖舵瘝瀵规垜鐨勫枩鐖便€?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '5',
+      content: '鍗充娇鏄緢灏忕殑杩囧け锛岀埗姣嶄篃鎯╃綒鎴戙€?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '6',
+      content: '鐖舵瘝鎬昏瘯鍥炬綔绉婚粯鍖栧湴褰卞搷鎴戯紝浣挎垜鎴愪负鍑虹被鎷旇悆鐨勪汉銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '7',
+      content: '鎴戣寰楃埗姣嶅厑璁告垜鍦ㄦ煇浜涙柟闈㈡湁鐙埌涔嬪銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '8',
+      content: '鐖舵瘝鑳借鎴戝緱鍒板搴叾浠栨垚鍛樺緱涓嶅埌鐨勪笢瑗裤€?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '9',
+      content: '鐖舵瘝瀵规垜鐨勬儵缃氭槸鍏钩鐨勩€佹伆褰撶殑銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '10',
+      content: '鎴戣寰楃埗姣嶅鎴戝緢涓ュ帀銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '11',
+      content: '鐖舵瘝鎬绘槸宸﹀彸鎴戣绌夸粈涔堣。鏈嶆垨璇ユ墦鎵垚浠€涔堟牱瀛愩€?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '12',
+      content: '鐖舵瘝涓嶅厑璁告垜鍋氫竴浜涘叾瀹冨瀛愬彲浠ュ仛鐨勪簨鎯咃紝鍥犱负浠栦滑瀹虫€曟垜浼氬嚭浜嬨€?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '13',
+      content: '鍦ㄦ垜灏忔椂鍊欙紝鐖舵瘝鏇惧綋鐫€鍒汉闈㈡墦鎴戞垨璁枼鎴戙€?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '14',
+      content: '鐖舵瘝鎬绘槸寰堝叧娉ㄦ垜鏅氫笂骞蹭粈涔堛€?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '15',
+      content: '褰撻亣鍒颁笉椤哄績鐨勪簨鏃讹紝鎴戣兘鎰熷埌鐖舵瘝鍦ㄥ敖閲忛紦鍔辨垜锛屼娇鎴戝緱鍒颁竴浜涘畨鎱般€?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '16',
+      content: '鐖舵瘝鎬绘槸杩囧垎鎷呭績鎴戠殑鍋ュ悍銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '17',
+      content: '鐖舵瘝瀵规垜鐨勬儵缃氬線寰€瓒呰繃鎴戝簲鍙楃殑绋嬪害銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '18',
+      content: '濡傛灉鎴戝湪瀹堕噷涓嶅惉鍚╁拹锛岀埗姣嶅氨浼氭伡鐏€?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '19',
+      content: '濡傛灉鎴戝仛閿欎簡浠€涔堜簨锛岀埗姣嶆€绘槸浠ヤ竴绉嶄激蹇冩牱瀛愪娇鎴戞湁涓€绉嶇姱缃劅鎴栬礋鐤氭劅銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '20',
+      content: '鎴戣寰楃埗姣嶉毦浠ユ帴杩戙€?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '21',
+      content: '鐖舵瘝鏇惧湪鍒汉闈㈠墠鍞犲彣涓€浜涙垜璇磋繃鐨勮瘽鎴栧仛杩囩殑浜嬶紝杩欎娇鎴戞劅鍒板緢闅惧牚銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '22',
+      content: '鎴戣寰楃埗姣嶆洿鍠滄鎴戯紝鑰屼笉鏄垜鐨勫搴叾浠栨垚鍛樸€?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '23',
+      content: '鍦ㄦ弧瓒虫垜闇€瑕佺殑涓滆タ锛岀埗姣嶆槸寰堝皬姘旂殑銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '24',
+      content: '鐖舵瘝甯稿父寰堝湪涔庢垜鍙栧緱鍒嗘暟銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '25',
+      content: '濡傛灉闈复涓€椤瑰洶闅剧殑浠诲姟锛屾垜鑳芥劅鍒版潵鑷埗姣嶇殑鏀寔銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '26',
+      content: '鎴戝湪瀹堕噷寰€寰€琚綋鍋?鏇跨姜缇?鎴?瀹崇兢涔嬮┈"銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '27',
+      content: '鐖舵瘝鎬绘槸鎸戝墧鎴戞墍鍠滄鐨勬湅鍙嬨€?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '28',
+      content: '鐖舵瘝鎬讳互涓轰粬浠殑涓嶅揩鏄敱鎴戝紩璧风殑銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '29',
+      content: '鐖舵瘝鎬昏瘯鍥鹃紦鍔辨垜锛屼娇鎴戞垚涓轰郊浣艰€呫€?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '30',
+      content: '鐖舵瘝鎬诲悜鎴戣〃绀轰粬浠槸鐖辨垜鐨勩€?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '31',
+      content: '鐖舵瘝瀵规垜寰堜俊浠讳笖鍏佽鎴戠嫭鑷畬鎴愭煇浜涗簨銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '32',
+      content: '鎴戣寰楃埗姣嶅緢灏婇噸鎴戠殑瑙傜偣銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '33',
+      content: '鎴戣寰楃埗姣嶅緢鎰挎剰璺熸垜鍦ㄤ竴璧枫€?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '34',
+      content: '鎴戣寰楃埗姣嶅鎴戝緢灏忔皵銆佸緢鍚濆暚銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '35',
+      content: '鐖舵瘝鎬绘槸鍚戞垜璇寸被浼艰繖鏍风殑璇?濡傛灉浣犺繖鏍峰仛鎴戜細寰堜激蹇?銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '36',
+      content: '鐖舵瘝瑕佹眰鎴戝洖鍒板閲屽繀椤诲緱鍚戜粬浠鏄庢垜鍦ㄥ仛鐨勪簨鎯呫€?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '37',
+      content: '鎴戣寰楃埗姣嶅湪灏介噺浣挎垜鐨勯潚鏄ユ洿鏈夋剰涔夊拰涓板瘜澶氬僵(濡傜粰鎴戜拱寰堝鐨勪功锛屽畨鎺掓垜鍘诲浠よ惀鎴栧弬鍔犱勘涔愰儴)銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '38',
+      content: '鐖舵瘝缁忓父鍚戞垜琛ㄨ堪绫讳技杩欐牱鐨勮瘽"杩欏氨鏄垜浠负浣犳暣鏃ユ搷鍔宠€屽緱鍒扮殑鎶ョ瓟鍚?"',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '39',
+      content: '鐖舵瘝甯镐互涓嶈兘濞囨儻鎴戜负鍊熷彛涓嶆弧瓒虫垜鐨勮姹傘€?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '40',
+      content: '濡傛灉涓嶆寜鐖舵瘝鎵€鏈熸湜鐨勫幓鍋氾紝灏变細浣挎垜鍦ㄨ壇蹇冧笂鎰熷埌寰堜笉瀹夈€?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '41',
+      content: '鎴戣寰楃埗姣嶅鎴戠殑瀛︿範鎴愮哗锛屼綋鑲叉椿鍔ㄦ垨绫讳技鐨勪簨鎯呮湁杈冮珮鐨勮姹傘€?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '42',
+      content: '褰撴垜鎰熷埌浼ゅ績鐨勬椂鍊欏彲浠ヤ粠鐖舵瘝閭ｅ効寰楀埌瀹夋叞銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '43',
+      content: '鐖舵瘝鏇炬棤缂樻棤鏁呭湴鎯╃綒鎴戙€?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '44',
+      content: '鐖舵瘝鍏佽鎴戝仛涓€浜涙垜鐨勬湅鍙嬩滑鍋氱殑浜嬪€┿€?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '45',
+      content: '鐖舵瘝缁忓父瀵规垜璇翠粬浠笉鍠滄鎴戝湪瀹剁殑琛ㄧ幇銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '46',
+      content: '姣忓綋鎴戝悆楗椂锛岀埗姣嶅氨鍔濇垜鎴栧己杩垜鍐嶅鍚冧竴浜涖€?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '47',
+      content: '鐖舵瘝缁忓父褰撶潃鍒汉鐨勯潰鎵硅瘎鎴戞棦鎳掓儼锛屽張鏃犵敤銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '48',
+      content: '鐖舵瘝甯稿父鍏虫敞鎴戜氦寰€浠€涔堟牱鐨勬湅鍙嬨€?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '49',
+      content: '濡傛灉鍙戠敓浠€涔堜簨鎯咃紝鎴戝父甯告槸瀹跺涵鎴愬憳涓敮涓€鍙楄矗澶囩殑涓€涓€?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '50',
+      content: '鐖舵瘝鑳借鎴戦『鍏惰嚜鐒跺湴鍙戝睍銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '51',
+      content: '鐖舵瘝缁忓父瀵规垜绮椾織鏃犵ぜ銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '52',
+      content: '鏈夋椂鐢氳嚦涓轰竴鐐瑰効楦℃瘺钂滅毊鐨勫皬浜嬶紝鐖舵瘝涔熶細涓ュ帀鍦版儵缃氭垜銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '53',
+      content: '鐖舵瘝鏇炬棤缂樻棤鏁呭湴鎵撹繃鎴戙€?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '54',
+      content: '鐖舵瘝閫氬父浼氬弬浜堟垜鐨勪笟浣欑埍濂芥椿鍔ㄣ€?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '55',
+      content: '鎴戠粡甯告尐鐖舵瘝鐨勬墦銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '56',
+      content: '鐖舵瘝甯稿父鍏佽鎴戝埌鎴戝枩娆㈠幓鐨勫湴鏂癸紝鑰屼粬浠張涓嶄細杩囧垎鎷呭績銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '57',
+      content: '鐖舵瘝瀵规垜璇ュ仛浠€涔堛€佷笉璇ュ仛浠€涔堥兘鏈変弗鏍肩殑闄愬埗鑰屼笖缁濅笉璁╂銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '58',
+      content: '鐖舵瘝甯镐互涓€绉嶄娇鎴戝緢闅惧牚鐨勬柟寮忓寰呮垜銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '59',
+      content: '鎴戣寰楃埗姣嶅鎴戝彲鑳藉嚭浜嬬殑鎷呭績鏄じ澶х殑銆佽繃鍒嗙殑銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '60',
+      content: '鎴戣寰椾笌鐖舵瘝涔嬮棿瀛樺湪涓€绉嶆俯鏆栥€佷綋璐村拰浜茬儹鎰熻銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '61',
+      content: '鐖舵瘝鑳藉蹇嶆垜涓庝粬浠湁涓嶅悓鐨勮瑙ｃ€?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '62',
+      content: '鐖舵瘝甯稿父鍦ㄦ垜涓嶇煡閬撳師鍥犵殑鎯呭喌涓嬪鎴戝ぇ鍙戣劸姘斻€?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '63',
+      content: '褰撴垜鎵€鍋氱殑浜嬪彇寰楁垚鍔熸椂锛屾垜瑙夊緱鐖舵瘝寰堜负鎴戣嚜璞€?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '64',
+      content: '涓庢垜鐨勫搴叾浠栨垚鍛樼浉姣旓紝鐖舵瘝甯稿父鍋忕埍鎴戙€?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '65',
+      content: '鏈夋椂鍗充娇閿欒鍦ㄦ垜锛岀埗姣嶄篃鎶婅矗浠诲綊鍜庝簬瀹跺涵鍏朵粬鎴愬憳銆?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '66',
+      content: '鐖舵瘝缁忓父鎷ユ姳鎴戙€?,
+      choices: [Array],
+      parent: undefined
+    }
+  ],
+  order: 12,
+  key: 'embu'
+}
+{
+  name: '蹇冨闅滅闂嵎锛圡DQ锛?,
+  instruction: '涓嬮潰鐨勯棶棰橈紝璇锋牴鎹偍涓€鐩翠互鏉ョ殑鐘跺喌閫夋嫨涓€涓渶绗﹀悎鎮ㄧ湡瀹炴儏鍐电殑閫夐」锛岃繖閲屽苟娌℃湁姝ｇ‘鎴栭敊璇殑绛旀锛岃濡傚疄浣滅瓟',
+  questions: [
+    {
+      position: '1',
+      content: '鎮ㄦ劅鍒伴潪甯稿ソ鎴栭潪甯稿紑蹇冿紝浣嗗叾浠栦汉璁や负涓庢偍骞虫椂鐨勭姸鎬佷笉涓€鏍凤紝鎴栬€呰繖绉嶇壒鍒紑蹇冪粰鎮ㄥ甫鏉ヤ簡楹荤儲锛?,
+      choices: [Array],
+      parent: '鎮ㄦ槸鍚︽浘缁忔湁涓€娈垫椂闂翠笌骞虫椂涓嶄竴鏍凤紝骞朵笖鍦ㄩ偅娈垫椂闂撮噷鏈変笅鍒楄〃鐜帮紵'
+    },
+    {
+      position: '2',
+      content: '鎮ㄥ鏄撳彂鑴炬皵锛岀粡甯稿ぇ澹版寚璐ｅ埆浜恒€佷笌鍒汉浜夊惖鎴栨墦鏋讹紵',
+      choices: [Array],
+      parent: '鎮ㄦ槸鍚︽浘缁忔湁涓€娈垫椂闂翠笌骞虫椂涓嶄竴鏍凤紝骞朵笖鍦ㄩ偅娈垫椂闂撮噷鏈変笅鍒楄〃鐜帮紵'
+    },
+    {
+      position: '3',
+      content: '鎮ㄦ瘮骞虫椂鏇磋嚜淇★紵',
+      choices: [Array],
+      parent: '鎮ㄦ槸鍚︽浘缁忔湁涓€娈垫椂闂翠笌骞虫椂涓嶄竴鏍凤紝骞朵笖鍦ㄩ偅娈垫椂闂撮噷鏈変笅鍒楄〃鐜帮紵'
+    },
+    {
+      position: '4',
+      content: '鎮ㄧ潯瑙夋瘮骞虫椂灏戯紝鑰屼笖涔熶笉鎯崇潯锛?,
+      choices: [Array],
+      parent: '鎮ㄦ槸鍚︽浘缁忔湁涓€娈垫椂闂翠笌骞虫椂涓嶄竴鏍凤紝骞朵笖鍦ㄩ偅娈垫椂闂撮噷鏈変笅鍒楄〃鐜帮紵'
+    },
+    {
+      position: '5',
+      content: '鎮ㄨ瘽姣斿钩鏃跺锛屾垨璇磋瘽閫熷害姣斿钩鏃跺揩锛?,
+      choices: [Array],
+      parent: '鎮ㄦ槸鍚︽浘缁忔湁涓€娈垫椂闂翠笌骞虫椂涓嶄竴鏍凤紝骞朵笖鍦ㄩ偅娈垫椂闂撮噷鏈変笅鍒楄〃鐜帮紵'
+    },
+    {
+      position: '6',
+      content: '鎮ㄨ寰楁兂娉曚笉鏂秾鐜帮紝鎴栭毦浠ュ噺鎱㈡偍鐨勬€濈淮锛?,
+      choices: [Array],
+      parent: '鎮ㄦ槸鍚︽浘缁忔湁涓€娈垫椂闂翠笌骞虫椂涓嶄竴鏍凤紝骞朵笖鍦ㄩ偅娈垫椂闂撮噷鏈変笅鍒楄〃鐜帮紵'
+    },
+    {
+      position: '7',
+      content: '鎮ㄥ緢瀹规槗琚懆鍥寸殑浜嬬墿骞叉壈锛屼互鑷充簬涓嶈兘闆嗕腑娉ㄦ剰鍔涳紵',
+      choices: [Array],
+      parent: '鎮ㄦ槸鍚︽浘缁忔湁涓€娈垫椂闂翠笌骞虫椂涓嶄竴鏍凤紝骞朵笖鍦ㄩ偅娈垫椂闂撮噷鏈変笅鍒楄〃鐜帮紵'
+    },
+    {
+      position: '8',
+      content: '鎮ㄧ殑绮惧姏姣斿钩鏃跺ソ锛?,
+      choices: [Array],
+      parent: '鎮ㄦ槸鍚︽浘缁忔湁涓€娈垫椂闂翠笌骞虫椂涓嶄竴鏍凤紝骞朵笖鍦ㄩ偅娈垫椂闂撮噷鏈変笅鍒楄〃鐜帮紵'
+    },
+    {
+      position: '9',
+      content: '鎮ㄦ瘮骞虫椂绉瀬涓诲姩锛屾垨姣斿钩鏃跺仛浜嗘洿澶氱殑浜嬫儏锛?,
+      choices: [Array],
+      parent: '鎮ㄦ槸鍚︽浘缁忔湁涓€娈垫椂闂翠笌骞虫椂涓嶄竴鏍凤紝骞朵笖鍦ㄩ偅娈垫椂闂撮噷鏈変笅鍒楄〃鐜帮紵'
+    },
+    {
+      position: '10',
+      content: '鎮ㄧ殑绮惧姏姣斿钩鏃跺ソ锛?,
+      choices: [Array],
+      parent: '鎮ㄦ槸鍚︽浘缁忔湁涓€娈垫椂闂翠笌骞虫椂涓嶄竴鏍凤紝骞朵笖鍦ㄩ偅娈垫椂闂撮噷鏈変笅鍒楄〃鐜帮紵'
+    },
+    {
+      position: '11',
+      content: '鎮ㄧ殑鎬ф姣斿钩鏃跺己锛?,
+      choices: [Array],
+      parent: '鎮ㄦ槸鍚︽浘缁忔湁涓€娈垫椂闂翠笌骞虫椂涓嶄竴鏍凤紝骞朵笖鍦ㄩ偅娈垫椂闂撮噷鏈変笅鍒楄〃鐜帮紵'
+    },
+    {
+      position: '12',
+      content: '鎮ㄥ仛浜嗕竴浜涘钩鏃朵笉浼氬仛鎴栧湪鍒汉鐪嬫潵鍙兘杩囨縺銆佸偦涔庝箮鎴栬繃浜庡嵄闄╃殑浜嬶紵',
+      choices: [Array],
+      parent: '鎮ㄦ槸鍚︽浘缁忔湁涓€娈垫椂闂翠笌骞虫椂涓嶄竴鏍凤紝骞朵笖鍦ㄩ偅娈垫椂闂撮噷鏈変笅鍒楄〃鐜帮紵'
+    },
+    {
+      position: '13',
+      content: '鎮ㄨ姳閽卞お澶氾紝浣胯嚜宸辨垨瀹跺涵鏈夐夯鐑︼紵',
+      choices: [Array],
+      parent: '鎮ㄦ槸鍚︽浘缁忔湁涓€娈垫椂闂翠笌骞虫椂涓嶄竴鏍凤紝骞朵笖鍦ㄩ偅娈垫椂闂撮噷鏈変笅鍒楄〃鐜帮紵'
+    },
+    {
+      position: '14',
+      content: '濡傛灉鎮ㄦ湁杩囦笂杩版儏鍐电殑2绉嶆垨2绉嶄互涓婏紝杩欎簺鎯呭喌鏄惁鍚屾椂鏈熷彂鐢熻繃锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '15',
+      content: '涓婅堪鎯呭喌瀵规偍褰卞搷鏈夊涓ラ噸锛堝涓嶈兘宸ヤ綔锛屽嚭鐜板搴€佺粡娴庢垨娉曞緥闂锛岄櫡浜庝簤鍚垫垨鎵撴灦涓級锛?,
+      choices: [Array],
+      parent: undefined
+    }
+  ],
+  order: 9,
+  key: 'mdq'
+}
+{
+  name: '蹇冭韩鐥囩姸閲忚〃锛圥SSS锛?,
+  instruction: '璇蜂粩缁嗛槄璇绘瘡涓€鏉★紝鎶婃剰鎬濆紕鏄庣櫧锛岀劧鍚庢牴鎹偍鏈€杩戜竴涓湀鐨勫疄闄呮儏鍐碉紝閫夋嫨鏈€閫傚悎鎮ㄧ殑绛旀銆?,
+  questions: [
+    {
+      position: '1',
+      content: '澶存槒銆佸ご鑳€鎴栧ご鏅?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '2',
+      content: '涓ょ溂鎲嬭儉銆佸共娑┿€佽鐗╂ā绯?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '3',
+      content: '閮ㄤ綅涓嶅畾鐨勭儳鐏兼劅銆佺揣鏉熸劅',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '4',
+      content: '鍥涜偄棰ゆ姈銆佸彂楹?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '5',
+      content: '鎯呯华浣庤惤銆佹秷娌夋垨缁濇湜',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '6',
+      content: '蹇冨墠鍖轰笉閫傘€佸績鎱岋紙蹇冪巼鍔犲揩锛夈€佸績鎮革紙蹇冭烦鍔犲己锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '7',
+      content: '鑳搁椃銆佹皵鎬ャ€佸懠鍚稿洶闅?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '8',
+      content: '鍠夐儴涓嶉€傛劅',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '9',
+      content: '鑰抽福鎴栬剳楦?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '10',
+      content: '鍋氫簨鏃舵棤鍏磋叮銆佷笉蹇箰銆佹棤鍔ㄥ姏銆佹棤鎰忎箟',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '11',
+      content: '姣斿钩甯告洿瀹规槗鍙戣劸姘斻€佸啿鍔?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '12',
+      content: '鎰熷埌绱у紶銆佹媴蹇冦€佸鎬曟垨婵掓鎰?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '13',
+      content: '鍙ｅ共銆佽垖鑻斿帤鑵?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '14',
+      content: '鍡虫皵銆佸弽閰告垨鐑у績',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '15',
+      content: '鎵撳棟銆佹伓蹇冦€佸憰鍚?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '16',
+      content: '鑲犻福銆佽吂鑳€銆佽吂娉汇€佷究绉?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '17',
+      content: '甯稿父鍥為伩浣夸綘绱у紶鐨勫満鏅?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '18',
+      content: '灏块銆佸翱鎬ャ€佸灏垮澶氥€佹帓灏垮洶闅?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '19',
+      content: '浼氶槾閮ㄤ笉閫傛劅',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '20',
+      content: '閬楃簿鏃╂硠锛堥檺鐢锋€э級/鏈堢粡涓嶈皟鎴栫棝缁忥紙闄愬コ鎬э級',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '21',
+      content: '甯告湁浼ゅ鑷繁鐨勬兂娉?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '22',
+      content: '鎵嬭剼蹇冨彂鐑€佸叏韬樀鐑樀姹楁垨鎬曞喎銆佸洓鑲㈠彂鍑夈€佹劅瑙夋湁鍑夋皵杩涘叆韬綋',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '23',
+      content: '鐤肩棝锛屽鍏ㄨ韩鎴栧眬閮ㄧ柤鐥涖€佹父璧版€х柤鐥涚瓑',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '24',
+      content: '鎰熷埌鍏ㄨ韩涔忓姏',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '25',
+      content: '鎰熷埌涓嶅緱涓嶅幓閲嶅鍋氭煇浜涗簨鎴栨兂鏌愪簺闂',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '26',
+      content: '鍏ョ潯鍥伴毦銆佹槗閱掋€佹棭閱?,
+      choices: [Array],
+      parent: undefined
+    }
+  ],
+  order: 8,
+  key: 'psss'
+}
+{
+  name: '鍖瑰吂鍫＄潯鐪犺川閲忔寚鏁伴噺琛紙PSQI锛?,
+  instruction: '涓嬮潰涓€浜涢棶棰樻槸鍏充簬鎮ㄦ渶杩?涓湀鐨勭潯鐪犳儏鍐碉紝璇烽€夋嫨鎴栧～鍐欐渶绗﹀悎鎮ㄨ繎1涓湀瀹為檯鎯呭喌鐨勭瓟妗堛€傝鍥炵瓟涓嬪垪闂銆?,
+  questions: [
+    {
+      position: '1',
+      content: '杩?涓湀锛屾櫄涓婁笂搴婄潯瑙夐€氬父{input}鐐归挓銆?24灏忔椂鍒?',
+      choices: [],
+      parent: undefined
+    },
+    {
+      position: '2',
+      content: '杩?涓湀锛屼粠涓婂簥鍒板叆鐫￠€氬父闇€瑕亄input}鍒嗛挓銆?,
+      choices: [],
+      parent: undefined
+    },
+    {
+      position: '3',
+      content: '杩?涓湀锛岄€氬父鏃╀笂{input}鐐硅捣搴娿€?24灏忔椂鍒?',
+      choices: [],
+      parent: undefined
+    },
+    {
+      position: '4',
+      content: '杩?涓湀锛屾瘡澶滈€氬父瀹為檯鐫＄湢{input}灏忔椂锛堜笉绛変簬鍗у簥鏃堕棿锛夈€?,
+      choices: [],
+      parent: undefined
+    },
+    {
+      position: '5',
+      content: '鍏ョ潯鍥伴毦锛?0鍒嗛挓鍐呬笉鑳藉叆鐫★級',
+      choices: [Array],
+      parent: '杩?涓湀 锛屽洜涓嬪垪鎯呭喌褰卞搷鐫＄湢鑰岀儲鎭硷細'
+    },
+    {
+      position: '6',
+      content: '澶滈棿鏄撻啋鎴栨棭閱?,
+      choices: [Array],
+      parent: '杩?涓湀 锛屽洜涓嬪垪鎯呭喌褰卞搷鐫＄湢鑰岀儲鎭硷細'
+    },
+    {
+      position: '7',
+      content: '澶滈棿鍘诲帟鎵€',
+      choices: [Array],
+      parent: '杩?涓湀 锛屽洜涓嬪垪鎯呭喌褰卞搷鐫＄湢鑰岀儲鎭硷細'
+    },
+    {
+      position: '8',
+      content: '鍛煎惛涓嶇晠',
+      choices: [Array],
+      parent: '杩?涓湀 锛屽洜涓嬪垪鎯呭喌褰卞搷鐫＄湢鑰岀儲鎭硷細'
+    },
+    {
+      position: '9',
+      content: '鍜冲椊鎴栨墦榧惧０',
+      choices: [Array],
+      parent: '杩?涓湀 锛屽洜涓嬪垪鎯呭喌褰卞搷鐫＄湢鑰岀儲鎭硷細'
+    },
+    {
+      position: '10',
+      content: '鎰熻瀵掑喎',
+      choices: [Array],
+      parent: '杩?涓湀 锛屽洜涓嬪垪鎯呭喌褰卞搷鐫＄湢鑰岀儲鎭硷細'
+    },
+    {
+      position: '11',
+      content: '鎰熻澶儹',
+      choices: [Array],
+      parent: '杩?涓湀 锛屽洜涓嬪垪鎯呭喌褰卞搷鐫＄湢鑰岀儲鎭硷細'
+    },
+    {
+      position: '12',
+      content: '鍋氭伓姊?,
+      choices: [Array],
+      parent: '杩?涓湀 锛屽洜涓嬪垪鎯呭喌褰卞搷鐫＄湢鑰岀儲鎭硷細'
+    },
+    {
+      position: '13',
+      content: '鐤肩棝涓嶉€?,
+      choices: [Array],
+      parent: '杩?涓湀 锛屽洜涓嬪垪鎯呭喌褰卞搷鐫＄湢鑰岀儲鎭硷細'
+    },
+    {
+      position: '14',
+      content: '鍏跺畠褰卞搷鐫＄湢鐨勪簨鎯?,
+      choices: [Array],
+      parent: '杩?涓湀 锛屽洜涓嬪垪鎯呭喌褰卞搷鐫＄湢鑰岀儲鎭硷細'
+    },
+    {
+      position: '15',
+      content: '杩?涓湀锛屾€荤殑鏉ヨ锛屾偍璁や负鑷繁鐨勭潯鐪犺川閲?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '16',
+      content: '杩?涓湀锛屼綘鏄惁缁忓父瑕佹湇鑽紙鍖呮嫭浠庡尰鐢熷鏂规垨鑰呬粠澶栭潰鑽簵璐拱锛夋墠鑳藉叆鐫★紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '17',
+      content: '杩?涓湀锛屼綘鍦ㄥ紑杞︺€佸悆楗垨鍙傚姞绀句細娲诲姩鏃堕毦浠ヤ繚鎸佹竻閱掔姸鎬侊紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '18',
+      content: '杩?涓湀锛屼綘鍦ㄧН鏋佸畬鎴愪簨鎯呬笂鏄惁鏈夊洶闅撅紵',
+      choices: [Array],
+      parent: undefined
+    }
+  ],
+  order: 10,
+  key: 'psqi'
+}
+{
+  name: '鍎跨鑷垜鎰忚瘑閲忚〃锛圥HCSS锛?,
+  instruction: '涓嬮潰鏈?0涓棶棰?鏄簡瑙ｄ綘鏄€庢牱鐪嬪緟浣犺嚜宸辩殑銆傝浣犲喅瀹氬摢浜涢棶棰樼鍚堜綘鐨勫疄闄呮儏鍐?鍝簺闂涓嶇鍚堜綘鐨勫疄闄呮儏鍐点€傚浜庢瘡涓€涓棶棰樹綘鍙兘浣滀竴绉嶅洖绛?骞朵笖姣忎釜闂閮藉簲璇ュ洖绛斻€傝娉ㄦ剰,杩欓噷瑕佸洖绛旂殑鏄綘瀹為檯涓婅涓轰綘鎬庢牱,鑰屼笉鏄洖绛斾綘璁や负浣犲簲璇ユ€庢牱銆?,
+  questions: [
+    {
+      position: '1',
+      content: '鎴戠殑鍚屽鍢插紕鎴?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '2',
+      content: '鎴戞槸涓€涓垢绂忕殑浜?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '3',
+      content: '鎴戝緢闅句氦鏈嬪弸',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '4',
+      content: '鎴戠粡甯告偛浼?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '5',
+      content: '鎴戣仾鏄?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '6',
+      content: '鎴戝缇?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '7',
+      content: '褰撹€佸笀鎵炬垜鏃讹紝鎴戞劅鍒扮揣寮?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '8',
+      content: '鎴戠殑瀹硅矊浣挎垜鐑︽伡',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '9',
+      content: '鎴戦暱澶у悗灏嗘垚涓轰竴涓噸瑕佺殑浜虹墿',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '10',
+      content: '褰撳鏍¤鑰冭瘯鏃讹紝鎴戝氨鐑︽伡',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '11',
+      content: '鎴戝拰鍒汉鍚堜笉鏉?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '12',
+      content: '鍦ㄥ鏍￠噷鎴戣〃鐜板ソ',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '13',
+      content: '褰撴煇浠朵簨鍋氶敊浜嗗父甯告槸鎴戠殑杩囬敊',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '14',
+      content: '鎴戠粰瀹堕噷甯︽潵楹荤儲',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '15',
+      content: '鎴戞槸寮哄．鐨?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '16',
+      content: '鎴戝父甯告湁濂戒富鎰?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '17',
+      content: '鎴戝湪瀹堕噷鏄噸瑕佺殑涓€鍛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '18',
+      content: '鎴戝父甯告兂鎸夎嚜宸辩殑涓绘剰鍔炰簨',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '19',
+      content: '鎴戝杽浜庡仛鎵嬪伐鍔冲姩',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '20',
+      content: '鎴戞槗浜庢硠姘?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '21',
+      content: '鎴戠殑瀛︽牎浣滀笟鍋氬緱濂?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '22',
+      content: '鎴戝共璁稿鍧忎簨',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '23',
+      content: '鎴戝緢浼氱敾鐢?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '24',
+      content: '鍦ㄩ煶涔愭柟闈㈡垜涓嶉敊',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '25',
+      content: '鎴戝湪瀹惰〃鐜颁笉濂?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '26',
+      content: '鎴戝畬鎴愬鏍′綔涓氬緢鎱?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '27',
+      content: '鍦ㄧ彮涓婃垜鏄竴涓噸瑕佺殑浜?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '28',
+      content: '鎴戝鏄撶揣寮?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '29',
+      content: '鎴戞湁涓€鍙屾紓浜殑鐪肩潧',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '30',
+      content: '鍦ㄥ叏鐝悓瀛﹂潰鍓嶈璇濇垜鍙互璁插緱寰堝ソ',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '31',
+      content: '鍦ㄥ鏍℃垜鏄竴涓够鎯冲',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '32',
+      content: '鎴戝父甯告崏寮勬垜鐨勫厔寮熷濡?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '33',
+      content: '鎴戠殑鏈嬪弸鍠滄鎴戠殑涓绘剰',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '34',
+      content: '鎴戝父甯搁亣鍒伴夯鐑?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '35',
+      content: '鍦ㄥ閲屾垜鍚瘽',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '36',
+      content: '鎴戣繍姘斿ソ',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '37',
+      content: '鎴戝父甯稿緢鎷呭咖',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '38',
+      content: '鎴戠殑鐖舵瘝瀵规垜鏈熸湜杩囬珮',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '39',
+      content: '鎴戝枩娆㈡寜鑷繁鐨勬柟寮忓仛浜?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '40',
+      content: '鎴戣寰楄嚜宸卞仛浜嬩涪涓夋媺鍥?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '41',
+      content: '鎴戠殑澶村彂寰堝ソ',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '42',
+      content: '鍦ㄥ鏍℃垜鑷効鍋氫竴浜涗簨',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '43',
+      content: '鎴戝笇鏈涙垜涓庝紬涓嶅悓',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '44',
+      content: '鎴戞櫄涓婄潯寰楀ソ',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '45',
+      content: '鎴戣鍘屽鏍?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '46',
+      content: '鍦ㄦ父鎴忔椿鍔ㄤ腑鎴戞槸鏈€鍚庤閫変汉鐨勬垚鍛樹箣涓€',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '47',
+      content: '鎴戝父甯哥敓鐥?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '48',
+      content: '鎴戝父甯稿鍒汉灏忔皵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '49',
+      content: '鍦ㄥ鏍￠噷鍚屽浠涓烘垜鏈夊ソ涓绘剰',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '50',
+      content: '鎴戜笉楂樺叴',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '51',
+      content: '鎴戞湁璁稿鏈嬪弸',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '52',
+      content: '鎴戝揩涔?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '53',
+      content: '瀵瑰ぇ澶氭暟浜嬫垜涓嶅彂琛ㄦ剰瑙?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '54',
+      content: '鎴戦暱寰楁紓浜?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '55',
+      content: '鎴戠簿鍔涘厖娌?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '56',
+      content: '鎴戝父甯告墦鏋?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '57',
+      content: '鎴戜笌鐢峰瀛愬悎寰楁潵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '58',
+      content: '鍒汉甯稿父鎹夊紕鎴?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '59',
+      content: '鎴戝閲屽鎴戝け鏈?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '60',
+      content: '鎴戞湁涓€寮犱护浜烘剦蹇殑鑴?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '61',
+      content: '褰撴垜瑕佸仛浠€涔堜簨鏃舵€昏寰椾笉椤哄績',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '62',
+      content: '鍦ㄥ閲屾垜甯稿父琚崏寮?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '63',
+      content: '鍦ㄦ父鎴忓拰浣撹偛娲诲姩涓垜鏄竴涓甫澶翠汉',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '64',
+      content: '鎴戠鎷?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '65',
+      content: '鍦ㄦ父鎴忓拰浣撹偛娲诲姩涓垜鍙湅涓嶅弬鍔?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '66',
+      content: '鎴戝父甯稿繕璁版垜鎵€瀛︾殑涓滆タ',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '67',
+      content: '鎴戝鏄撲笌鍒汉鐩稿',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '68',
+      content: '鎴戝鏄撳彂鑴炬皵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '69',
+      content: '鎴戜笌濂冲瀛愬悎寰楁潵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '70',
+      content: '鎴戝枩娆㈤槄璇?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '71',
+      content: '鎴戝畞鎰跨嫭鑷共浜嬶紝鑰屼笉鎰夸笌璁稿浜轰竴璧峰仛浜嬫儏',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '72',
+      content: '鎴戝枩娆㈡垜鐨勫厔寮熷濡?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '73',
+      content: '鎴戠殑韬潗濂?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '74',
+      content: '鎴戝父甯稿鎬?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '75',
+      content: '鎴戞€绘槸璺屽潖涓滆タ鎴栨墦鍧忎笢瑗?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '76',
+      content: '鎴戣兘寰楀埌鍒汉鐨勪俊浠?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '77',
+      content: '鎴戜笌浼椾笉鍚?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '78',
+      content: '鎴戝父甯告湁涓€浜涘潖鐨勬兂娉?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '79',
+      content: '鎴戝鏄撳摥鍙?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '80',
+      content: '鎴戞槸涓€涓ソ浜?,
+      choices: [Array],
+      parent: undefined
+    }
+  ],
+  order: 11,
+  key: 'phcss'
+}
+{
+  name: '鍘嬪姏鎰熷彈閲忚〃锛圥SS-10锛?,
+  instruction: '璇锋牴鎹偍涓€涓湀鍐呯殑鐪熷疄鎯呭喌锛岄€夋嫨鏈€绗﹀悎鎮ㄧ殑閫夐」',
+  questions: [
+    {
+      position: '1',
+      content: '鍦ㄨ繃鍘荤殑涓€涓湀閲岋紝浣犳湁澶氬皯鏃堕棿鍥犱负鍙戠敓鎰忓鐨勪簨鎯呰€屾劅鍒板績鐑︽剰涔?',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '2',
+      content: '鍦ㄨ繃鍘荤殑涓€涓湀閲岋紝鏈夊灏戞椂闂翠綘鎰熷埌鏃犳硶鎺屾帶鐢熸椿涓噸瑕佺殑浜嬫儏?',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '3',
+      content: '鍦ㄨ繃鍘荤殑涓€涓湀閲岋紝鏈夊灏戞椂闂翠綘鎰熻鍒扮缁忕揣寮犳垨鈥滃揩琚帇鍨簡鈥?',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '4',
+      content: '鍦ㄨ繃鍘荤殑涓€涓湀閲岋紝鏈夊灏戞椂闂翠綘瀵硅嚜宸卞鐞嗕釜浜洪棶棰樼殑鑳藉姏鎰熷埌鏈変俊蹇?',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '5',
+      content: '鍦ㄨ繃鍘荤殑涓€涓湀閲岋紝鏈夊灏戞椂闂翠綘鎰熷埌浜嬫儏鍙戝睍鍜屼綘棰勬枡鐨勪竴鏍?',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '6',
+      content: '鍦ㄨ繃鍘荤殑涓€涓湀閲岋紝鏈夊灏戞椂闂翠綘鍙戠幇鑷繁鏃犳硶搴斾粯閭ｄ簺浣犲繀椤诲幓鍋氱殑浜嬫儏?',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '7',
+      content: '鍦ㄨ繃鍘荤殑涓€涓湀閲岋紝鏃ュ父鐢熸椿涓湁澶氬皯鏃堕棿浣犺兘澶熸帶鍒惰嚜宸辩殑鎰ゆ€掓儏缁?',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '8',
+      content: '鍦ㄨ繃鍘荤殑涓€涓湀閲岋紝鏈夊灏戞椂闂翠綘鎰熷埌澶勭悊浜嬫儏寰楀績搴旀墜锛堜簨鎯呴兘鍦ㄤ綘鐨勬帶鍒朵箣涓級?',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '9',
+      content: '鍦ㄨ繃鍘荤殑涓€涓湀閲岋紝鏈夊灏戞椂闂翠綘鍥犱负涓€浜涜秴鍑鸿嚜宸辨帶鍒惰兘鍔涚殑浜嬫儏鑰屾劅鍒版劋鎬?',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '10',
+      content: '鍦ㄨ繃鍘荤殑涓€涓湀閲岋紝鏈夊灏戞椂闂翠綘鎰熷埌闂鍫嗙Н濡俧t锛屽凡缁忔棤娉曢€捐秺?',
+      choices: [Array],
+      parent: undefined
+    }
+  ],
+  order: 15,
+  key: 'PSS-10'
+}
+{
+  name: '鑹炬．鍏嬩釜鎬ф祴璇曪紙EPQ锛?,
+  instruction: '涓嬮潰鐨勯棶棰橈紝璇锋牴鎹偍涓€鐩翠互鏉ョ殑鐘跺喌閫夋嫨涓€涓渶绗﹀悎鎮ㄧ湡瀹炴儏鍐电殑閫夐」锛岃繖閲屽苟娌℃湁姝ｇ‘鎴栭敊璇殑绛旀锛岃濡傚疄浣滅瓟',
+  questions: [
+    {
+      position: '1',
+      content: '浣犳槸鍚︽湁璁稿涓嶅悓鐨勪笟浣欑埍濂斤紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '2',
+      content: '浣犳槸鍚﹀湪鍋氫换浣曚簨鎯呬互鍓嶉兘瑕佸仠涓嬫潵浠旂粏鎬濊€冿紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '3',
+      content: '浣犵殑蹇冨鏄惁甯告湁璧蜂紡锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '4',
+      content: '浣犳浘鏈夎繃鏄庣煡鏄埆浜虹殑鍔熷姵鑰屼綘鍘绘帴鍙楀鍔辩殑浜嬪悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '5',
+      content: '浣犳槸鍚﹀仴璋堬紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '6',
+      content: '娆犲€轰細浣夸綘涓嶅畨鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '7',
+      content: '浣犳浘鏃犵紭鏃犳晠瑙夊緱鈥滅湡鏄毦鍙椻€濆悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '8',
+      content: '浣犳浘璐浘杩囦唤澶栦箣鐗╁悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '9',
+      content: '浣犳槸鍚﹀湪鏅氫笂灏忓績缈肩考鍦板叧濂介棬绐楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '10',
+      content: '浣犳槸鍚︽瘮杈冩椿璺冿紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '11',
+      content: '浣犲湪瑙佸埌涓€灏忓鎴栦竴鍔ㄧ墿鍙楁姌纾ㄦ椂鏄惁浼氭劅鍒伴潪甯搁毦杩囷紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '12',
+      content: '浣犳槸鍚﹀父甯镐负鑷繁涓嶈浣滆€屼綔浜嗙殑浜嬶紝涓嶈璇磋€岃浜嗙殑璇濊€岀揣寮犲悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '13',
+      content: '浣犲枩娆㈣烦闄嶈惤浼炲悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '14',
+      content: '閫氬父浣犺兘鍦ㄧ儹闂硅仈娆細涓敖鎯呭湴鐜╁悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '15',
+      content: '浣犲鏄撴縺鍔ㄥ悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '16',
+      content: '浣犳浘缁忓皢鑷繁鐨勮繃閿欐帹缁欏埆浜哄悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '17',
+      content: '浣犲枩娆細瑙侀檶鐢熶汉鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '18',
+      content: '浣犳槸鍚︾浉淇′繚闄╁埗搴︽槸涓€绉嶅ソ鍔炴硶锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '19',
+      content: '浣犳槸涓€涓鏄撲激鎰熸儏鐨勪汉鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '20',
+      content: '浣犳墍鏈夌殑涔犳儻閮芥槸濂界殑鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '21',
+      content: '鍦ㄧぞ浜ゅ満鍚堜綘鏄惁鎬讳笉鎰块湶澶磋锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '22',
+      content: '浣犱細鏈嶇敤濂囧紓鎴栧嵄闄╀綔鐢ㄧ殑鑽墿鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '23',
+      content: '浣犲父鏈夆€滃帉鍊︹€濅箣鎰熷悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '24',
+      content: '浣犳浘鎷胯繃鍒汉鐨勪笢瑗垮悧锛堥偅鎬曚竴閽堜竴绾匡級锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '25',
+      content: '浣犳槸鍚﹀父鐖卞鍑猴紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '26',
+      content: '浣犳槸鍚︿粠浼ゅ浣犳墍瀹犵埍鐨勪汉鑰屾劅鍒颁箰瓒ｏ紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '27',
+      content: '浣犲父涓烘湁缃伓涔嬫劅鎵€鑻︽伡鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '28',
+      content: '浣犲湪璋堣涓槸鍚︽湁鏃朵笉鎳傝鎳傦紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '29',
+      content: '浣犳槸鍚﹀畞鎰垮幓鐪嬩功鑰屼笉鎰垮幓澶氳浜猴紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '30',
+      content: '浣犳湁瑕佷激瀹充綘鐨勪粐浜哄悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '31',
+      content: '浣犺寰楄嚜宸辨槸涓€涓缁忚繃鏁忕殑浜哄悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '32',
+      content: '瀵逛汉鏈夋墍澶辩ぜ鏃朵綘鏄惁缁忓父瑕佽〃绀烘瓑鎰忥紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '33',
+      content: '浣犳湁璁稿鏈嬪弸鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '34',
+      content: '浣犳槸鍚﹀枩鐖辫浜涙湁鏃剁‘鑳戒激瀹充汉鐨勭瑧璇濓紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '35',
+      content: '浣犳槸涓€涓蹇у铏戠殑浜哄悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '36',
+      content: '浣犲湪绔ュ勾鏄惁鎸夌収鍚╁拹瑕佸仛浠€涔堜究鍋氫粈涔堬紝姣棤鎬ㄨ█锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '37',
+      content: '浣犺涓轰綘鏄竴涓箰澶╂淳鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '38',
+      content: '浣犲緢璁茬┒绀艰矊鍜屾暣娲佸悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '39',
+      content: '浣犳槸鍚︽€诲湪鎷呭績浼氬彂鐢熷彲鎬曠殑浜嬫儏锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '40',
+      content: '浣犳浘鎹熷潖鎴栭仐澶辫繃鍒汉鐨勪笢瑗垮悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '41',
+      content: '浜ゆ柊鏈嬪弸鏃朵竴鑸槸浣犻噰鍙栦富鍔ㄥ悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '42',
+      content: '褰撳埆浜哄悜浣犺瘔鑻︽椂锛屼綘鏄惁瀹规槗鐞嗚В浠栦滑鐨勮嫤鍝€锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '43',
+      content: '浣犺涓鸿嚜宸卞緢绱у紶锛屽鍚屸€滄媺绱х殑寮︹€濅竴鏍峰悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '44',
+      content: '鍦ㄦ病鏈夊簾绾哥瘬鏃讹紝浣犳槸鍚﹀皢搴熺焊鎵斿湪鍦版澘涓婏紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '45',
+      content: '褰撲綘涓庡埆浜哄湪涓€璧锋椂锛屼綘鏄惁瑷€璇緢灏戯紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '46',
+      content: '浣犳槸鍚﹁涓虹粨濠氬埗搴︽槸杩囨椂浜嗭紝搴旇搴熸锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '47',
+      content: '浣犳槸鍚︽湁鏃舵劅鍒拌嚜宸卞彲鎬滐紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '48',
+      content: '浣犳槸鍚︽湁鏃舵湁鐐硅嚜澶革紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '49',
+      content: '浣犳槸鍚﹀緢瀹规槗灏嗕竴涓矇瀵傜殑闆嗕細鎼炲緱娲昏穬璧锋潵锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '50',
+      content: '浣犳槸鍚﹁鍘岄偅绉嶅皬蹇冪考缈煎湴寮€杞︾殑浜猴紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '51',
+      content: '浣犱负浣犵殑鍋ュ悍鎷呭咖鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '52',
+      content: '浣犳浘璁茶繃浠€涔堜汉鐨勫潖璇濆悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '53',
+      content: '浣犳槸鍚﹀枩娆㈠鏈嬪弸璁茬瑧璇濆拰鏈夎叮鐨勬晠浜嬶紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '54',
+      content: '浣犲皬鏃跺€欐浘瀵圭埗姣嶇矖鏆存棤绀煎悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '55',
+      content: '浣犳槸鍚﹀枩娆笌浜烘贩鍦ㄤ竴璧凤紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '56',
+      content: '浣犲鐭ラ亾鑷繁宸ヤ綔鏈夐敊璇紝杩欎細浣夸綘鎰熷埌闅捐繃鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '57',
+      content: '浣犳偅澶辩湢鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '58',
+      content: '浣犲悆楗墠蹇呭畾娲楁墜鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '59',
+      content: '浣犲父鏃犵紭鏃犳晠鎰熷埌鏃犵簿鎵撻噰鍜屽€︽€犲悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '60',
+      content: '鍜屽埆浜虹帺娓告垙鏃讹紝浣犳湁杩囨楠楄涓哄悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '61',
+      content: '浣犳槸鍚﹀枩娆粠浜嬩竴浜涘姩浣滆繀閫熺殑宸ヤ綔锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '62',
+      content: '浣犵殑姣嶄翰鏄竴浣嶅杽鑹殑濡囦汉鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '63',
+      content: '浣犳槸鍚﹀父甯歌寰椾汉鐢熼潪甯告棤鍛筹紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '64',
+      content: '浣犳浘鍒╃敤杩囨煇浜轰负鑷繁鍙栧緱濂藉鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '65',
+      content: '浣犳槸鍚﹀父甯稿弬鍔犺澶氭椿鍔紝瓒呰繃浣犵殑鏃堕棿鎵€鍏佽锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '66',
+      content: '鏄惁鏈夊嚑涓汉鎬诲湪韬查伩浣狅紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '67',
+      content: '浣犳槸鍚︿负浣犵殑瀹硅矊鑰岄潪甯哥儲鎭硷紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '68',
+      content: '浣犳槸鍚﹁寰椾汉浠负浜嗘湭鏉ユ湁淇濋殰鑰屽姙鐞嗗偍钃勫拰淇濋櫓鎵€鑺辩殑鏃堕棿澶锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '69',
+      content: '浣犳浘鏈夎繃涓嶅姝讳簡涓哄ソ鐨勬効鏈涘悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '70',
+      content: '濡傛灉鏈夋妸鎻℃案杩滀笉浼氳鍒汉鍙戠幇锛屼綘浼氶€冪◣鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '71',
+      content: '浣犺兘浣夸竴涓泦浼氶『鍒╄繘琛屽悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '72',
+      content: '浣犺兘鍏嬪埗鑷繁涓嶅浜烘棤绀煎悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '73',
+      content: '閬囧埌涓€娆￠毦鍫殑缁忓巻鍚庯紝浣犳槸鍚﹀湪涓€娈靛緢闀跨殑鏃堕棿鍐呰繕鎰熷埌闅惧彈锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '74',
+      content: '浣犳偅鏈夆€滅缁忚繃鏁忊€濆悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '75',
+      content: '浣犳浘缁忔晠鎰忚浜涗粈涔堟潵浼ゅ鍒汉鐨勬劅鎯呭悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '76',
+      content: '浣犱笌鍒汉鐨勫弸璋婃槸鍚﹀鏄撶牬瑁傦紝铏界劧涓嶆槸浣犵殑杩囬敊锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '77',
+      content: '浣犲父鎰熷埌瀛ゅ崟鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '78',
+      content: '褰撲汉瀹跺浣犵殑宸敊,鎵句綘宸ヤ綔涓殑缂虹偣鏃?浣犳槸鍚﹀鏄撳湪绮剧涓婂彈鎸激锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '79',
+      content: '浣犺荡绾︿細鎴栦笂鐝浘杩熷埌杩囧悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '80',
+      content: '浣犲枩娆㈠繖蹇欑纰屽湴杩囨棩瀛愬悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '81',
+      content: '浣犳効鎰忓埆浜烘€曚綘鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '82',
+      content: '浣犳槸鍚﹁寰楁湁鏃舵祽韬槸鍔诧紝鑰屾湁鏃跺張鏄噿娲嬫磱鐨勫悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '83',
+      content: '浣犳湁鏃舵妸浠婂ぉ搴斿仛鐨勪簨鎷栧埌鏄庡ぉ鍘诲仛鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '84',
+      content: '鍒汉璁や负浣犳槸鐢熸皵鍕冨媰鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '85',
+      content: '鍒汉鏄惁瀵逛綘璇翠簡璁稿璋庤瘽锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '86',
+      content: '浣犳槸鍚﹀鏄撳鏌愪簺浜嬬墿瀹规槗鍐掔伀锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '87',
+      content: '褰撲綘鐘簡閿欒鏃讹紝浣犳槸鍚﹀父甯告効鎰忔壙璁ゅ畠锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '88',
+      content: '浣犱細涓轰竴鍔ㄧ墿钀藉叆鍦堝琚崏鎷胯€屾劅鍒板緢闅捐繃鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    }
+  ],
+  order: 4,
+  key: 'epq'
+}
+{
+  name: '鐒﹁檻鑷瘎閲忚〃锛圙AD-7锛?,
+  instruction: '鍦ㄨ繃鍘?涓槦鏈燂紝鎮ㄦ浘鏈夊灏戞椂闂村彈鍒颁互涓嬩换浣曢棶棰樼殑鍥版壈?璇峰瀹炰綔绛?,
+  questions: [
+    {
+      position: '1',
+      content: '鎰熷埌绱у紶銆佷笉瀹夋垨鐑﹁簛鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '2',
+      content: '鏃犳硶鎺у埗鎴栧仠姝㈡媴蹇冨悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '3',
+      content: '瀵逛笉鍚屼簨鎯呰繃浠芥媴蹇冨悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '4',
+      content: '韬綋鍜屽績鐞嗛毦浠ユ斁鏉惧悧锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '5',
+      content: '鐒﹁簛涓嶅畨锛岄毦浠ュ畨闈欏湴鍧愮潃鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '6',
+      content: '瀹规槗蹇冪儲鎴栧鏄撳彂鑴炬皵鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '7',
+      content: '鎰熷埌瀹虫€曪紝灏卞儚鏈夊彲鎬曠殑浜嬫儏鍗冲皢鍙戠敓鍚楋紵',
+      choices: [Array],
+      parent: undefined
+    }
+  ],
+  order: 2,
+  key: 'gad-7'
+}
+{
+  name: '90椤圭棁鐘舵竻鍗曪紙SCL-90锛?,
+  instruction: '璇锋偍鏍规嵁鏈€杩戜竴鍛ㄤ互鏉ヨ嚜宸辩殑瀹為檯鎯呭喌锛岄€夋嫨鏈€绗﹀悎鎮ㄧ殑涓€椤?,
+  questions: [
+    {
+      position: '1',
+      content: '澶寸柤锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '2',
+      content: '绁炵粡杩囨晱锛屽績涓笉韪忓疄锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '3',
+      content: '澶磋剳涓湁涓嶅繀瑕佺殑鎯虫硶鎴栧瓧鍙ョ洏鏃嬶紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '4',
+      content: '澶存檿鎴栨檿鍊掞紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '5',
+      content: '瀵瑰紓鎬х殑鍏磋叮鍑忛€€锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '6',
+      content: '瀵规梺浜鸿矗澶囨眰鍏紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '7',
+      content: '鎰熷埌鍒汉鑳芥帶鍒舵偍鐨勬€濇兂锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '8',
+      content: '璐ｆ€埆浜哄埗閫犻夯鐑︼紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '9',
+      content: '蹇樻€уぇ锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '10',
+      content: '鎷呭績鑷繁鐨勮。楗版暣榻愬強浠€佺殑绔锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '11',
+      content: '瀹规槗鐑︽伡鍜屾縺鍔紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '12',
+      content: '鑳哥棝锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '13',
+      content: '瀹虫€曠┖鏃风殑鍦烘墍鎴栬閬擄紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '14',
+      content: '鎰熷埌鑷繁鐨勭簿鍔涗笅闄嶏紝娲诲姩鍑忔參锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '15',
+      content: '鎯崇粨鏉熻嚜宸辩殑鐢熷懡锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '16',
+      content: '鍚埌鏃佷汉鍚笉鍒扮殑澹伴煶锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '17',
+      content: '鍙戞姈锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '18',
+      content: '鎰熷埌澶у鏁颁汉閮戒笉鍙俊浠伙紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '19',
+      content: '鑳冨彛涓嶅ソ锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '20',
+      content: '瀹规槗鍝常锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '21',
+      content: '鍚屽紓鎬х浉澶勬椂鎰熷埌瀹崇緸涓嶈嚜鍦紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '22',
+      content: '鎰熷埌鍙楅獥銆佷腑浜嗗湀濂楁垨鏈変汉鎯虫姄浣忔偍 锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '23',
+      content: '鏃犵紭鏃犳晠鍦扮獊鐒舵劅鍒板鎬曪紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '24',
+      content: '鑷繁涓嶈兘鎺у埗鍦板彂鑴炬皵锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '25',
+      content: '鎬曞崟鐙嚭闂紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '26',
+      content: '缁忓父璐ｆ€嚜宸憋紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '27',
+      content: '鑵扮柤锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '28',
+      content: '鎰熷埌闅句互瀹屾垚浠诲姟锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '29',
+      content: '鎰熷埌瀛ょ嫭锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '30',
+      content: '鎰熷埌鑻﹂椃锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '31',
+      content: '杩囧垎鎷呭咖锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '32',
+      content: '瀵逛簨鐗╀笉鎰熷叴瓒ｏ紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '33',
+      content: '鎰熷埌瀹虫€曪紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '34',
+      content: '鎰熷埌瀹规槗鍙楀埌浼ゅ锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '35',
+      content: '鏃佷汉鑳界煡閬撴偍鐨勭涓嬫兂娉曪紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '36',
+      content: '鎰熷埌鍒汉涓嶇悊瑙ｆ偍銆佷笉鍚屾儏鎮紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '37',
+      content: '鎰熷埌浜轰滑瀵规偍涓嶅弸濂斤紝涓嶅枩娆㈡偍锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '38',
+      content: '鍋氫簨蹇呴』鍋氬緱寰堟參浠ヤ繚璇佸仛寰楁纭紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '39',
+      content: '蹇冭烦寰楀緢鍘夊锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '40',
+      content: '鎭跺績鎴栬儍閮ㄤ笉鑸掓湇锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '41',
+      content: '鎰熷埌姣斾笉涓婁粬浜猴紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '42',
+      content: '鑲岃倝閰哥棝锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '43',
+      content: '鎰熷埌鏈変汉鍦ㄧ洃瑙嗘偍銆佽皥璁烘偍锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '44',
+      content: '闅句互鍏ョ潯锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '45',
+      content: '鍋氫簨蹇呴』鍙嶅妫€鏌ワ紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '46',
+      content: '闅句互浣滃嚭鍐冲畾锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '47',
+      content: '鎬曚箻鐢佃溅銆佸叕鍏辨苯杞︺€佸湴閾佹垨鐏溅锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '48',
+      content: '鍛煎惛鏈夊洶闅撅紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '49',
+      content: '涓€闃甸樀鍙戝喎鎴栧彂鐑紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '50',
+      content: '鍥犱负鎰熷埌瀹虫€曡€岄伩寮€鏌愪簺涓滆タ銆佸満鍚堟垨娲诲姩锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '51',
+      content: '鑴戝瓙鍙樼┖浜嗭紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '52',
+      content: '韬綋鍙戦夯鎴栧埡鐥涳紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '53',
+      content: '鍠夊挋鏈夋濉炴劅锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '54',
+      content: '鎰熷埌娌℃湁鍓嶉€旀病鏈夊笇鏈涳紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '55',
+      content: '涓嶈兘闆嗕腑娉ㄦ剰鍔涳紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '56',
+      content: '鎰熷埌韬綋鐨勬煇涓€閮ㄥ垎杞急鏃犲姏锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '57',
+      content: '鎰熷埌绱у紶鎴栬€呭鏄撶揣寮狅紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '58',
+      content: '鎰熷埌鎵嬫垨鑰呮暀鍙戦噸锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '59',
+      content: '鎯冲埌姝讳骸锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '60',
+      content: '鍚冨緱澶锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '61',
+      content: '褰撳埆浜虹湅鐫€鎮ㄦ垨璋堣鎮ㄦ椂鎰熷埌涓嶈嚜鍦紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '62',
+      content: '鏈変竴浜涗笉灞炰簬鎮ㄨ嚜宸辩殑鎯虫硶锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '63',
+      content: '鏈夋兂鎵撲汉鎴栦激瀹充粬浜虹殑鍐插姩 锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '64',
+      content: '閱掔殑澶棭锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '65',
+      content: '蹇呴』鍙嶅娲楁墜銆佺偣鏁扮洰鎴栬Е鎽告煇浜涗笢瑗匡紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '66',
+      content: '鐫″緱涓嶇ǔ涓嶆繁锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '67',
+      content: '鏈夋兂鎽斿潖鎴栫牬鍧忎笢瑗跨殑鍐插姩锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '68',
+      content: '鏈変竴浜涘埆浜烘病鏈夌殑鎯虫硶鎴栧康澶达紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '69',
+      content: '鎰熷埌瀵瑰埆浜虹缁忚繃鏁忥紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '70',
+      content: '鍦ㄥ晢搴楁垨鐢靛奖绛変汉澶氱殑鍦版柟鎰熷埌涓嶈嚜鍦紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '71',
+      content: '鎰熷埌浠讳綍浜嬫儏閮藉緢鍥伴毦锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '72',
+      content: '涓€闃甸樀鎭愭儳鎴栨儕鎭愶紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '73',
+      content: '鎰熷埌鍦ㄥ叕鍏卞満鍚堝悆涓滆タ寰堜笉鑸掓湇锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '74',
+      content: '缁忓父涓庝汉浜夎锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '75',
+      content: '鍗曠嫭涓€浜烘椂绁炵粡寰堢揣寮狅紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '76',
+      content: '鍒汉瀵规偍鐨勬垚缁╂病鏈変綔鍑烘伆褰撶殑璇勪环锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '77',
+      content: '鍗充娇鍜屽埆浜哄湪涓€璧蜂篃鎰熷埌瀛ゅ崟锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '78',
+      content: '鎰熷埌鍧愮珛涓嶅畨蹇冪涓嶅畾 锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '79',
+      content: '鎰熷埌鑷繁娌℃湁浠€涔堜环鍊硷紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '80',
+      content: '鎰熷埌鐔熸倝鐨勪笢瑗垮彉鎴愰檶鐢熸垨涓嶅儚鏄湡鐨勶紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '81',
+      content: '澶у彨鎴栬€呮憯涓滆タ锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '82',
+      content: '瀹虫€曚細鍦ㄥ叕鍏卞満鍚堟檿鍊掞紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '83',
+      content: '鎰熷埌鍒汉鎯冲崰鎮ㄧ殑渚垮疁锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '84',
+      content: '涓轰竴浜涙湁鍏斥€滄€р€濈殑鎯虫硶鑰屽緢鑻︽伡锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '85',
+      content: '鎮ㄨ涓哄簲璇ュ洜涓鸿嚜宸辩殑杩囬敊鑰屽彈鍒版儵缃氾紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '86',
+      content: '鎰熷埌瑕佽刀蹇妸浜嬫儏鍋氬畬锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '87',
+      content: '鎰熷埌鑷繁鐨勮韩浣撴湁涓ラ噸闂锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '88',
+      content: '浠庢湭鎰熷埌鍜屽叾浠栦汉寰堜翰杩戯紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '89',
+      content: '鎰熷埌鑷繁鏈夌姜锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '90',
+      content: '鎰熷埌鑷繁鐨勮剳瀛愭湁姣涚梾锛?,
+      choices: [Array],
+      parent: undefined
+    }
+  ],
+  order: 3,
+  key: 'scl-90'
+}
+{
+  name: '鎶戦儊鑷瘎閲忚〃锛圥HQ-9锛?,
+  instruction: '鍦ㄨ繃鍘?涓槦鏈燂紝鎮ㄦ浘鏈夊灏戞椂闂村彈鍒颁互涓嬩换浣曢棶棰樼殑鍥版壈?璇峰瀹炰綔绛?,
+  questions: [
+    {
+      position: '1',
+      content: '鍋氫簨鏃舵彁涓嶈捣鍏磋叮鎴栧緢灏戜箰瓒ｏ紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '2',
+      content: '鎰熷埌蹇冩儏浣庤惤銆佹伯涓ф垨缁濇湜锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '3',
+      content: '鍏ョ潯鎴栫啛鐫″洶闅撅紝鎴栫潯寰楀お澶氾紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '4',
+      content: '鎰熻鐤插€︽垨娌℃湁绮惧姏锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '5',
+      content: '鑳冨彛涓嶅ソ鎴栧悆寰楄繃澶氾紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '6',
+      content: '瑙夊緱鑷繁寰堢碂鈥旀垨瑙夊緱鑷繁寰堝け璐ワ紝鎴栬鑷繁鎴栧浜哄け鏈涳紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '7',
+      content: '鍋氫簨鏃堕毦闆嗕腑娉ㄦ剰鍔涳紝渚嬪闃呰鎶ョ焊鎴栫湅鐢佃锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '8',
+      content: '鍔ㄤ綔鎴栬璇濋€熷害缂撴參鍒板埆浜哄彲浠ュ療瑙夊埌鐨勭▼搴︼紵 鎴栨濂界浉鍙嶁€旀偍鎰熻鐑﹁簛鎴栧潗绔嬩笉瀹夛紝浠ヨ嚦浜庢偍璧版潵璧板幓澶氫簬骞虫椂锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '9',
+      content: '鏈変笉濡傛鎺夋垨鐢ㄦ煇绉嶆柟寮忎激瀹宠嚜宸辩殑蹇靛ご锛?,
+      choices: [Array],
+      parent: undefined
+    }
+  ],
+  order: 1,
+  key: 'phq-9'
+}
+{
+  name: '32椤硅交韬佺媯鐥囩姸娓呭崟锛圚CL-32锛?,
+  instruction: '璇疯瘯鐫€鍥炲繂褰撴偍澶勪簬鈥滈珮娑ㄢ€濈姸鎬佹椂锛屾偍閭ｆ椂鐨勬劅瑙夊浣曪紵锛堜笉绠℃偍鐜板湪鐨勭姸鎬佸浣曪紝璇锋偍瀵逛笅鍒楁墍鏈夌殑鎻忚堪杩涜鍥炵瓟锛?,
+  questions: [
+    {
+      position: '1',
+      content: '鎴戦渶瑕佺殑鐫＄湢鏃堕棿姣斿钩鏃跺皯',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '2',
+      content: '鎴戞劅瑙夋瘮骞虫椂鏇存湁绮惧姏鍙婃椿鍔ㄥ澶?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '3',
+      content: '鎴戞瘮骞虫椂鏇磋嚜淇?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '4',
+      content: '鎴戞洿鍔犲枩娆㈠伐浣?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '5',
+      content: '鎴戠ぞ浜ゆ椿鍔ㄥ澶氾紙鎵撶數璇濇瘮骞虫椂澶氥€佸鍑烘瘮骞虫椂澶氾級',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '6',
+      content: '鎴戞兂鍘绘梾琛岋紝鑰屼笖鏃呰鐨勭‘姣斿钩鏃跺',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '7',
+      content: '鎴戝紑杞︽瘮骞虫椂蹇紝鎴栧紑杞︿笉椤惧嵄闄?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '8',
+      content: '鎴戣姳閽辨瘮骞虫椂澶氾紝鎴栬姳浜嗗お澶氶挶',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '9',
+      content: '鎴戞洿鍠滄鎵惧紓鎬ц亰澶╋紝鎴栨€ф椿鍔ㄦ瘮骞虫椂澶?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '10',
+      content: '鎴戞椿鍔ㄩ噺澧炲锛堝浣撹偛杩愬姩绛夛級',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '11',
+      content: '鎴戞湁鏇村鐨勬墦绠楋紝鎴栬鍒掓洿澶氱殑娲诲姩',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '12',
+      content: '鎴戞湁鏇村鐨勭偣瀛愶紝鎴栨洿鍏锋湁鍒涢€犲姏',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '13',
+      content: '鎴戝彉寰椾笉瀹崇緸銆佷笉鑳嗘€?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '14',
+      content: '鎴戜細绌块鑹叉洿鍔犻矞鑹崇殑琛ｆ湇锛屾垨鎵撴壆鏇存椂楂?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '15',
+      content: '鎴戝鈥滄€р€濇洿鎰熷叴瓒ｏ紝鎴栨€ф澧炲己',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '16',
+      content: '鎴戣璇濇椂浼氬紑鏇村鐨勭帺绗戯紝鎴栬鏇村鍙屽叧璇?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '17',
+      content: '鎴戞瘮骞虫椂瀹规槗鍒嗗績',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '18',
+      content: '鎴戞瘮骞虫椂鍋ヨ皥',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '19',
+      content: '鎴戞€濈淮鏇村姞鏁忔嵎',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '20',
+      content: '鎴戞娊鐑熸瘮骞虫椂澶?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '21',
+      content: '鍦ㄦ棩甯哥敓娲讳腑锛屾垜姣斿钩鏃舵洿鍐掗櫓锛堝湪宸ヤ綔鎴栧叾浠栨椿鍔ㄤ笂锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '22',
+      content: '鎴戜細鏇村鍦板皾璇曞悇绉嶆柊浜嬬墿',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '23',
+      content: '鎴戠殑鎬濈华缁忓父浠庝竴涓瘽棰樿烦鍒板彟涓€涓瘽棰?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '24',
+      content: '鎴戝仛浜嬫瘮骞虫椂蹇紝骞朵笖/鎴栬寰楁洿椤烘墜',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '25',
+      content: '鎴戞洿鍔犳病鏈夎€愬績锛屽苟涓?鎴栨洿瀹规槗鐢熸皵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '26',
+      content: '鎴戞洿瀹规槗璁╀汉涓嶈€愮儲鎴栨伡鎬?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '27',
+      content: '鎴戜笌浠栦汉鐨勪簤鍚靛澶?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '28',
+      content: '鎴戠殑鎯呯华鍙樺緱鏇撮珮娑ㄣ€佹洿涔愯',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '29',
+      content: '鎴戝枬鍜栧暋姣斿钩鏃跺',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '30',
+      content: '鎴戞娊鐑熸瘮骞虫椂澶?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '31',
+      content: '鎴戝枬閰掓瘮骞虫椂澶?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '32',
+      content: '鎴戞湇鐢ㄦ洿澶氱殑鑽墿锛堥晣闈欏墏銆佹姉鐒﹁檻鑽€佸叴濂嬪墏锛?,
+      choices: [Array],
+      parent: undefined
+    }
+  ],
+  order: 6,
+  key: 'hcl-32'
+}
+{
+  name: 'Yale-Brown寮鸿揩閲忚〃',
+  instruction: '1-5棰樻槸寮鸿揩鎬濈淮锛?-10棰樻槸寮鸿揩琛屼负锛岃渚濈収浣犱富瑕佺殑寮鸿揩鐥囩姸浣滅瓟锛岄€夊嚭绗﹀悎鐨勯€夐」',
+  questions: [
+    {
+      position: '1',
+      content: '寮鸿揩鎬濈淮鍗犳嵁鏃堕棿锛氫綘鏈夊灏戞椂闂磋寮鸿揩鎬濈淮鎵€鍗犳嵁锛熸槸鍚︾粡甯稿嚭鐜帮紵锛堜笉鍖呮嫭闈炲己杩€х殑銆佷笌鑷垜鐩稿崗璋冪殑銆佽繃鍒嗚€屽悎鐞嗙殑鍙嶅鎬濊€冿紝鎴栨矇缂呬簬杩欑鎯虫硶銆傦級',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '2',
+      content: '绀句氦鎴栧伐浣滆兘鍔涘彈寮鸿揩鎬濈淮褰卞搷鐨勭▼搴︼細寮鸿揩鎬濈淮浣夸綘鍦ㄧぞ浜ゆ垨宸ヤ綔涓彈鍒板灏戝共鎵帮紵鏈夋病鏈夊洜姝よ€屼娇浣犱笉鑳藉畬鎴愭煇浠朵簨鎯咃紵锛堝鏋滅幇鍦ㄦ病鏈夊伐浣滐紝鍒欏己杩€濈淮瀵规瘡澶╂棩甯告椿鍔ㄥ濡ㄧ鏈夊澶э紵鍥炵瓟姝ら鏃讹紝璇锋兂鏄惁鏈変换浣曚簨鎯呭洜涓哄己杩€濈淮鑰屼笉鍘诲仛鎴栬緝灏戝仛锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '3',
+      content: '寮鸿揩鎬濈淮鎵€鑷寸棝鑻︾儲鎭肩▼搴︼細浣犳劅鍙楀埌澶氬皯鐥涜嫤鐑︽伡锛燂紙鍦ㄦ鍙瘎瀹氱敱寮鸿揩鎬濈淮鎵€鑷寸劍铏戯紝鑰岄潪骞挎硾鎬х劍铏戞垨涓庡叾瀹冪棁鐘舵湁鍏崇殑鐒﹁檻銆傦級',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '4',
+      content: '瀵瑰己杩€濈淮鐨勬姷鍒讹細浣犲仛杩囧灏戝姫鍔涙潵鎽嗚劚寮鸿揩鎬濈淮锛熶竴鏃﹀己杩€濈淮鍑虹幇锛屼綘澶氬皯娆¤瘯鍥捐浆绉绘敞鎰忓姏鎴栦笉鐞嗕細瀹冿紵锛堝湪姝ゅ璇曞浘鎽嗚劚寮鸿揩鎬濈淮鎵€鍋氱殑鍔姏浣滆瘎瀹氾紝鑰屼笉璁轰簨瀹炰笂鎴愬姛涓庡惁銆傦級',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '5',
+      content: '鎺у埗寮鸿揩鎬濈淮鐨勭▼搴︼細浣犺兘鎺у埗浣忓灏戝己杩€濈淮锛熶綘鎴愬姛鍦伴樆姝㈡垨杞Щ浜嗗灏戝己杩€濈淮锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '6',
+      content: '浣犲湪寮鸿揩琛屼负涓婄敤浜嗗灏戞椂闂达細浣犳湁澶氬皯鏃堕棿鐢ㄤ簬寮鸿揩琛屼负涓婏紵鏄惁缁忓父鍑虹幇锛燂紙濡傛灉寮鸿揩琛屼负涓昏琛ㄧ幇涓烘湁鍏虫棩甯哥敓娲荤殑浠紡鍔ㄤ綔锛屼綘鍦ㄦ棩甯告椿鍔ㄤ腑鍑虹幇浠紡鍔ㄤ綔鏃讹紝瀹屾垚杩欓」娲诲姩鎵€鐢ㄦ椂闂存瘮姝ｅ父浜哄鍔犲灏戯紵锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '7',
+      content: '鍙楀己杩涓哄共鎵扮殑绋嬪害锛氬己杩涓轰娇浣犲湪绀句氦鎴栧湪宸ヤ綔涓彈鍒板灏戝共鎵帮紵鏈夋病鏈夊洜姝や娇浣犱笉鑳藉仛鏌愪簺浜嬫儏锛燂紙濡傛灉鐩墠娌℃湁宸ヤ綔锛屽垯寮鸿揩琛屼负瀵规瘡澶╂棩甯哥敓娲荤殑濡ㄧ鏈夊澶э紵锛?,
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '8',
+      content: '寮鸿揩琛屼负鎵€鑷寸棝鑻︾儲鎭肩▼搴︼細濡傛灉闃绘浣犳鍦ㄨ繘琛屼腑鐨勫己杩涓猴紝浣犱細鏈変粈涔堟劅瑙夛紵',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '9',
+      content: '瀵瑰己杩涓轰骇鐢熺殑鎶靛埗绋嬪害锛氫綘鍋氫簡澶氬皯鍔姏浠ユ憜鑴卞己杩涓猴紵锛堝彧璇勬墍浣滅殑鍔姏锛岃€屼笉璁轰簨瀹炰笂鎴愬姛涓庡惁銆傦級',
+      choices: [Array],
+      parent: undefined
+    },
+    {
+      position: '10',
+      content: '鎺у埗寮鸿揩琛屼负鐨勭▼搴︼細浣犳兂鎵ц寮鸿揩琛屼负鐨勫唴蹇冮┍鍔ㄥ姏鏈夊寮猴紵浣犺兘鎺у埗浣忓灏戝己杩涓猴紵',
+      choices: [Array],
+      parent: undefined
+    }
+  ],
+  order: 5,
+  key: 'yale-brown'
+}
+[seed]: success

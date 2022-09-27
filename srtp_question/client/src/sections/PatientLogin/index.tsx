@@ -1,0 +1,504 @@
+import {
+  makeStyles,
+  Theme,
+  createStyles,
+  Button,
+  TextField,
+  FormControl,
+  InputLabel,
+  MenuItem,
+  Select,
+  Snackbar,
+  Grid,
+} from "@material-ui/core";
+import React, { useEffect, useRef, useState } from "react";
+import NavigateNextIcon from "@material-ui/icons/NavigateNext";
+import { LoadingIndicator, ReturnToHomeHeader } from "../../lib/components";
+import AccountCircle from "@material-ui/icons/AccountCircle";
+import InputAdornment from "@material-ui/core/InputAdornment";
+import AssignmentIndIcon from "@material-ui/icons/AssignmentInd";
+import { useLazyQuery, useMutation } from "@apollo/client";
+import { QUERY_USER } from "../../lib/graphql/queries/QueryUser";
+import {
+  QueryUser,
+  QueryUserVariables,
+} from "../../lib/graphql/queries/QueryUser/__generated__/QueryUser";
+import Alert from "@material-ui/lab/Alert";
+import WcIcon from "@material-ui/icons/Wc";
+import AccessibilityIcon from "@material-ui/icons/Accessibility";
+import ChildCareIcon from "@material-ui/icons/ChildCare";
+import SchoolIcon from "@material-ui/icons/School";
+import WorkIcon from "@material-ui/icons/Work";
+import {
+  PatientLogIn,
+  PatientLogInVariables,
+} from "../../lib/graphql/mutations/PatientLogIn/__generated__/PatientLogIn";
+import { Patient } from "../../lib/type";
+import { PATIENT_LOG_IN } from "../../lib/graphql/mutations/PatientLogIn";
+import { useHistory, useLocation } from "react-router-dom";
+
+const useStyles = makeStyles((theme: Theme) =>
+  createStyles({
+    root: {
+      background: "#e3f2fd",
+      height: "100%",
+      width: "100%",
+    },
+    titleWrapper: {
+      height: "100%",
+    },
+    title: {
+      fontSize: "1.5rem",
+      textAlign: "center",
+    },
+    buttonContainer: {
+      display: "flex",
+      justifyContent: "center",
+      paddingTop: 50,
+      background: "#e3f2fd",
+      paddingBottom: 20,
+    },
+    titleContainer: {
+      minHeight: 75,
+      maxHeight: 290,
+      height: "calc(100% - 630px)",
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "flex-end",
+      background: "#e3f2fd",
+    },
+    inputContainer: {
+      display: "flex",
+      justifyContent: "center",
+      paddingTop: 50,
+    },
+    personalInformationContainer: {
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      paddingTop: 20,
+      background: "#e3f2fd",
+    },
+    input: {
+      width: 250,
+      paddingTop: 5,
+      paddingBottom: 5,
+    },
+    actionsWrapper: {
+      display: "flex",
+      justifyContent: "center",
+      background: "#e3f2fd",
+    },
+    actionsContainer: {
+      display: "flex",
+      justifyContent: "space-between",
+      paddingTop: 50,
+      background: "#e3f2fd",
+      paddingBottom: 20,
+      width: 300,
+    },
+  })
+);
+
+interface Props {
+  setPatient: (patient: Patient) => void;
+  patient: Patient;
+}
+
+function useQueryParams() {
+  return new URLSearchParams(useLocation().search);
+}
+
+export const PatientLogin = ({ setPatient, patient }: Props) => {
+	console.log("///////////////////");
+	console.log(patient);
+  const queryParams = useQueryParams();
+  const initRef = useRef(() => {
+    const userName = queryParams.get("userName");
+    if (userName) {
+      setUserName(userName);
+      handleNextButtonClick(userName);
+      
+    }
+  	
+  });
+	
+  useEffect(() => {
+    initRef.current();
+  }, []);
+  const handleKeyPress = (event: KeyboardEvent) => {
+    if (event.key === "Enter") {
+      if (isBasicInformationShown) {
+        handleLogInButtonClick();
+      } else {
+        handleNextButtonClick(undefined);
+      }
+    }
+  };
+  useEffect(() => {
+    window.addEventListener("keydown", handleKeyPress);
+
+    return () => {
+      window.removeEventListener("keydown", handleKeyPress);
+    };
+  });
+
+  const [patientLogIn] = useMutation<PatientLogIn, PatientLogInVariables>(
+    PATIENT_LOG_IN,
+    {
+      onCompleted: (data) => {
+        if (data && data.patientLogIn) {
+          setPatient(data.patientLogIn);
+        }
+      },
+    }
+  );
+  const classes = useStyles();
+  const [isUserNameValidated, setIsUserNameValidated] = useState(false);
+  const [isNameValidated, setIsNameValidated] = useState(false);
+  const [getQueryResult, { loading, data: userListData }] = useLazyQuery<
+    QueryUser,
+    QueryUserVariables
+  >(QUERY_USER, {
+    fetchPolicy: "no-cache",
+    onCompleted: (data) => {
+      if (data.queryUser.total > 0) {
+        const userInfo = data.queryUser.users[0];
+        userInfo.name && setName(userInfo.name);
+        userInfo.gender && setGender(userInfo.gender);
+        userInfo.age && setAge(userInfo.age);
+        userInfo.education && setEducation(userInfo.education);
+        userInfo.jobStatus && setJobStatus(userInfo.jobStatus);
+        userInfo.marriageStatus && setMarriageStatus(userInfo.marriageStatus);
+        setShowLoadSuccess(true);
+      } else {
+        setName("");
+        setGender("");
+        setAge("");
+        setEducation("");
+        setJobStatus("");
+        setMarriageStatus("");
+      }
+    },
+  });
+  const [isBasicInformationShown, setIsBasicInformationShown] = useState(false);
+  const [userName, setUserName] = useState("");
+  const [name, setName] = useState("");
+  const [gender, setGender] = useState("");
+  const [age, setAge] = useState("");
+  const [education, setEducation] = useState("");
+  const [jobStatus, setJobStatus] = useState("");
+  const [marriageStatus, setMarriageStatus] = useState("");
+  const onNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setName(e.target.value);
+  };
+  const onGenderChange = (
+    e: React.ChangeEvent<{
+      name?: string | undefined;
+      value: unknown;
+    }>
+  ) => {
+    setGender(e.target.value as string);
+  };
+  const onAgeChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setAge(e.target.value);
+  };
+  const [showLoadSuccess, setShowLoadSuccess] = useState(false);
+  const handleCloseLoadSuccess = () => {
+    setShowLoadSuccess(false);
+  };
+  const handleUserNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setUserName(e.target.value);
+  };
+  const [showNameErrorMessage, setShowNameErrorMessage] = useState(false);
+  const handleCloseNameErrorMessage = () => {
+    setShowNameErrorMessage(false);
+  };
+  const onEducationChange = (
+    e: React.ChangeEvent<{
+      name?: string | undefined;
+      value: unknown;
+    }>
+  ) => {
+    setEducation(e.target.value as string);
+  };
+  const onMarriageStatusChange = (
+    e: React.ChangeEvent<{
+      name?: string | undefined;
+      value: unknown;
+    }>
+  ) => {
+    setMarriageStatus(e.target.value as string);
+  };
+  const onJobChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setJobStatus(e.target.value);
+  };
+  const handleNextButtonClick = async (
+    userNameFromQueryParams: string | undefined
+  ) => {
+    if (!isBasicInformationShown) {
+      if (userName || userNameFromQueryParams) {
+        await getQueryResult({
+          variables: {
+            userName: userNameFromQueryParams
+              ? userNameFromQueryParams
+              : userName,
+            limit: 1,
+            currentPageIndex: 0,
+          },
+        });
+        setIsBasicInformationShown(true);
+      } else {
+        // Show the userName cannot be empty error.
+        setIsUserNameValidated(true);
+      }
+    }
+  };
+  const handleCancel = () => {
+    setIsBasicInformationShown(false);
+  };
+  const history = useHistory();
+  const handleLogInButtonClick = async () => {
+    if (name) {
+      await patientLogIn({
+        variables: {
+          input: {
+            userName,
+            education,
+            name: name.trim(),
+            age: age !== "" ? Number(age) : undefined,
+            gender,
+            jobStatus,
+            marriageStatus,
+          },
+        },
+      });
+      history.push("/user/prompt");
+    } else {
+      setIsNameValidated(true);
+      setShowNameErrorMessage(true);
+    }
+  };
+  return (
+    <div className={classes.root}>
+      <ReturnToHomeHeader />
+      {isBasicInformationShown ? (
+        loading ? (
+          <LoadingIndicator />
+        ) : (
+          <>
+            {userListData && userListData.queryUser.total > 0 ? (
+              <div className={classes.titleContainer}>
+                <div className={classes.title}>请核实您的个人信息</div>
+              </div>
+            ) : (
+              <div className={classes.titleContainer}>
+                <div className={classes.title}>请输入您的个人信息</div>
+              </div>
+            )}
+            <div className={classes.personalInformationContainer}>
+              <div>
+                <Grid container spacing={1} alignItems="flex-end">
+                  <Grid item>
+                    <AccountCircle />
+                  </Grid>
+                  <Grid item>
+                    <TextField
+                      label="姓名"
+                      className={classes.input}
+                      required
+                      value={name}
+                      onChange={onNameChange}
+                      error={isNameValidated && !name ? true : false}
+                    />
+                  </Grid>
+                </Grid>
+              </div>
+              <div>
+                <Grid container spacing={1} alignItems="flex-end">
+                  <Grid item>
+                    <WcIcon />
+                  </Grid>
+                  <Grid item>
+                    <FormControl size="small" className={classes.input}>
+                      <InputLabel>性别</InputLabel>
+                      <Select
+                        color="primary"
+                        label="性别"
+                        onChange={onGenderChange}
+                        value={gender}
+                      >
+                        <MenuItem value="男">男</MenuItem>
+                        <MenuItem value="女">女</MenuItem>
+                      </Select>
+                    </FormControl>
+                  </Grid>
+                </Grid>
+              </div>
+              <div>
+                <Grid container spacing={1} alignItems="flex-end">
+                  <Grid item>
+                    <AccessibilityIcon />
+                  </Grid>
+                  <Grid item>
+                    <TextField
+                      className={classes.input}
+                      color="primary"
+                      label="年龄"
+                      size="small"
+                      type="number"
+                      value={age}
+                      onChange={onAgeChange}
+                    />
+                  </Grid>
+                </Grid>
+              </div>
+              <div>
+                <Grid container spacing={1} alignItems="flex-end">
+                  <Grid item>
+                    <ChildCareIcon />
+                  </Grid>
+                  <Grid item>
+                    <FormControl size="small" className={classes.input}>
+                      <InputLabel>婚姻</InputLabel>
+                      <Select
+                        color="primary"
+                        value={marriageStatus}
+                        onChange={onMarriageStatusChange}
+                      >
+                        <MenuItem value="已婚">已婚</MenuItem>
+                        <MenuItem value="未婚">未婚</MenuItem>
+                      </Select>
+                    </FormControl>
+                  </Grid>
+                </Grid>
+              </div>
+              <div>
+                <Grid container spacing={1} alignItems="flex-end">
+                  <Grid item>
+                    <SchoolIcon />
+                  </Grid>
+                  <Grid item>
+                    <FormControl size="small" className={classes.input}>
+                      <InputLabel>教育</InputLabel>
+                      <Select
+                        color="primary"
+                        value={education}
+                        onChange={onEducationChange}
+                      >
+                        <MenuItem value="高中以下">高中以下</MenuItem>
+                        <MenuItem value="大中专科">大中专科</MenuItem>
+                        <MenuItem value="本科">本科</MenuItem>
+                        <MenuItem value="硕士">硕士</MenuItem>
+                        <MenuItem value="博士">博士</MenuItem>
+                      </Select>
+                    </FormControl>
+                  </Grid>
+                </Grid>
+              </div>
+              <div>
+                <Grid container spacing={1} alignItems="flex-end">
+                  <Grid item>
+                    <WorkIcon />
+                  </Grid>
+                  <Grid item>
+                    <TextField
+                      color="primary"
+                      label="职业"
+                      size="small"
+                      className={classes.input}
+                      value={jobStatus}
+                      onChange={onJobChange}
+                    />
+                  </Grid>
+                </Grid>
+              </div>
+            </div>
+          </>
+        )
+      ) : (
+        <>
+          <div className={classes.titleContainer}>
+            <div className={classes.title}>请输入您的门诊号</div>
+          </div>
+          <div className={classes.inputContainer}>
+            <TextField
+              label="门诊号"
+              InputProps={{
+                startAdornment: (
+                  <InputAdornment position="start">
+                    <AssignmentIndIcon />
+                  </InputAdornment>
+                ),
+              }}
+              value={userName}
+              onChange={handleUserNameChange}
+              autoFocus
+              error={isUserNameValidated && !userName ? true : undefined}
+              helperText={
+                isUserNameValidated && !userName
+                  ? "请输入您的门诊号"
+                  : undefined
+              }
+            />
+          </div>
+        </>
+      )}
+      {isBasicInformationShown ? (
+        loading ? null : (
+          <div className={classes.actionsWrapper}>
+            <div className={classes.actionsContainer}>
+              <Button onClick={handleCancel}>取消</Button>
+              <Button
+                variant="contained"
+                color="primary"
+                onClick={handleLogInButtonClick}
+              >
+                确定
+              </Button>
+            </div>
+          </div>
+        )
+      ) : (
+        <div className={classes.buttonContainer}>
+          <Button
+            variant="contained"
+            color="primary"
+            endIcon={<NavigateNextIcon />}
+            onClick={() => handleNextButtonClick(undefined)}
+          >
+            下一步
+          </Button>
+        </div>
+      )}
+      <Snackbar
+        open={showLoadSuccess}
+        autoHideDuration={6000}
+        onClose={handleCloseLoadSuccess}
+        anchorOrigin={{ vertical: "bottom", horizontal: "left" }}
+      >
+        <Alert
+          onClose={handleCloseLoadSuccess}
+          severity="success"
+          variant="filled"
+        >
+          成功载入您的个人信息
+        </Alert>
+      </Snackbar>
+      <Snackbar
+        open={showNameErrorMessage}
+        autoHideDuration={6000}
+        onClose={handleCloseNameErrorMessage}
+        anchorOrigin={{ vertical: "bottom", horizontal: "left" }}
+      >
+        <Alert
+          onClose={handleCloseNameErrorMessage}
+          severity="error"
+          variant="filled"
+        >
+          姓名为必填项！
+        </Alert>
+      </Snackbar>
+    </div>
+  );
+};
