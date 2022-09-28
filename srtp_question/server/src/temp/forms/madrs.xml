@@ -6,26 +6,24 @@
 	<instruction>在过去2个星期，您曾多久一次受到以下任何问题的困扰？请如实作答</instruction>
 	<question>
 		<position>1</position>
-		
 		<content>观察到的抑郁</content>
 		<choice>无</choice>
-		<choice>介于上下两者之间</choice>
+		<choice>介于上下两者(1,3)之间</choice>
 		<choice>看起来是悲伤的，但能使之高兴一些</choice>
-		<choice>介于上下两者之间</choice>
+		<choice>介于上下两者(3,5)之间..</choice>
 		<choice>突出的悲伤忧郁，但其情绪仍可受外界环境影响</choice>
-		<choice>介于上下两者之间</choice>
+		<choice>介于上下两者(5,7)之间</choice>
 		<choice>整天抑郁，极度严重</choice>
 	</question>
 	<question>
 		<position>2</position>
-		
 		<content>抑郁主诉</content>
 		<choice>在日常心境中偶有抑郁</choice>
-		<choice>介于上下两者之间</choice>
+		<choice>介于上下两者(1,3)之间</choice>
 		<choice>有抑郁或情绪低沉，但可使之愉快些</choice>
-		<choice>介于上下两者之间</choice>
+		<choice>介于上下两者(3,5)之间</choice>
 		<choice>沉湎于抑郁沮丧心境，但环境仍可对心境有些影响</choice>
-		<choice>介于上下两者之间</choice>
+		<choice>介于上下两者(5,7)之间</choice>
 		<choice>持久不断的深度抑郁沮丧</choice>
 	</question>
 	<question>
@@ -33,11 +31,11 @@
 		
 		<content>内心紧张</content>
 		<choice>平静，偶有瞬间的紧张</choice>
-		<choice>介于上下两者之间</choice>
+		<choice>介于上下两者(1,3)之间</choice>
 		<choice>偶有紧张不安及难以言明的不舒服感</choice>
-		<choice>介于上下两者之间</choice>
+		<choice>介于上下两者(3,5)之间</choice>
 		<choice>持久的内心紧张，或间歇呈现的恐惧状态，要花费相当努力方能克制</choice>
-		<choice>介于上下两者之间</choice>
+		<choice>介于上下两者(5,7)之间</choice>
 		<choice>持久的恐惧和苦恼，极度惊恐</choice>
 	</question>
 	<question>
@@ -45,11 +43,11 @@
 		
 		<content>睡眠减少</content>
 		<choice>睡眠如常</choice>
-		<choice>介于上下两者之间</choice>
+		<choice>介于上下两者(1,3)之间</choice>
 		<choice>轻度入睡困难，或睡眠较浅，或是时睡时醒</choice>
-		<choice>介于上下两者之间</choice>
+		<choice>介于上下两者(3,5)之间</choice>
 		<choice>睡眠减少或睡眠中断2小时以上</choice>
-		<choice>介于上下两者之间</choice>
+		<choice>介于上下两者(5,7)之间</choice>
 		<choice>每天睡眠总时间不超过2-3小时</choice>
 	</question>
 	<question>
@@ -57,11 +55,11 @@
 		
 		<content>食欲减退</content>
 		<choice>食欲正常或增加</choice>
-		<choice>介于上下两者之间</choice>
+		<choice>介于上下两者(1,3)之间</choice>
 		<choice>轻度食欲减退</choice>
-		<choice>介于上下两者之间</choice>
+		<choice>介于上下两者(3,5)之间</choice>
 		<choice>没有食欲，食之无味</choice>
-		<choice>介于上下两者之间</choice>
+		<choice>介于上下两者(5,7)之间</choice>
 		<choice>不愿进食，需他人帮助</choice>
 	</question>
 	<question>
@@ -69,11 +67,11 @@
 		
 		<content>注意集中困难</content>
 		<choice>无</choice>
-		<choice>介于上下两者之间</choice>
+		<choice>介于上下两者(1,3)之间</choice>
 		<choice>偶有思想集中困难</choice>
-		<choice>介于上下两者之间</choice>
+		<choice>介于上下两者(3,5)之间</choice>
 		<choice>思想难以集中，以致干扰阅读或交谈天</choice>
-		<choice>介于上下两者之间</choice>
+		<choice>介于上下两者(5,7)之间</choice>
 		<choice>完全不能集中思想，无法阅读</choice>
 	</question>
 	<question>
@@ -81,11 +79,11 @@
 		
 		<content>懒散</content>
 		<choice>活动发动并无困难，动作不慢</choice>
-		<choice>介于上下两者之间</choice>
+		<choice>介于上下两者(1,3)之间</choice>
 		<choice>有始动困难</choice>
-		<choice>介于上下两者之间</choice>
+		<choice>介于上下两者(3,5)之间</choice>
 		<choice>即使简单的日常活动也难以发动，需花很大努力</choice>
-		<choice>介于上下两者之间</choice>
+		<choice>介于上下两者(5,7)之间</choice>
 		<choice>完全呈懒散状态，无人帮助什么也干不了</choice>
 	</question>
 	<question>
@@ -93,11 +91,11 @@
 		
 		<content>感受不能</content>
 		<choice>对周围的人和物的兴趣正常</choice>
-		<choice>介于上下两者之间</choice>
+		<choice>介于上下两者(1,3)之间</choice>
 		<choice>对日常趣事的享受减退</choice>
-		<choice>介于上下两者之间</choice>
+		<choice>介于上下两者(3,5)之间</choice>
 		<choice>对周围不感兴趣</choice>
-		<choice>介于上下两者之间</choice>
+		<choice>介于上下两者(5,7)之间</choice>
 		<choice>呈情感麻木状态，不能体验愤怒、悲痛和愉快，对亲友全无感情</choice>
 	</question>
 	<question>
@@ -105,11 +103,11 @@
 		
 		<content>悲观思想</content>
 		<choice>无</choice>
-		<choice>介于上下两者之间</choice>
+		<choice>介于上下两者(1,3)之间</choice>
 		<choice>时有时无的失败，自责和自卑感</choice>
-		<choice>介于上下两者之间</choice>
+		<choice>介于上下两者(3,5)之间</choice>
 		<choice>持久的自责或肯定的但尚近情理的自罪，对前途悲观</choice>
-		<choice>介于上下两者之间</choice>
+		<choice>介于上下两者(5,7)之间</choice>
 		<choice>自我毁灭、自我悔恨或感罪恶深重的妄想，荒谬绝伦、难以动摇的自我谴责</choice>
 	</question>
 	<question>
@@ -117,11 +115,11 @@
 		
 		<content>自杀观念</content>
 		<choice>无</choice>
-		<choice>介于上下两者之间</choice>
+		<choice>介于上下两者(1,3)之间</choice>
 		<choice>对生活厌倦，偶有瞬间即逝的自杀念头</choice>
-		<choice>介于上下两者之间</choice>
+		<choice>介于上下两者(3,5)之间</choice>
 		<choice>感到不如死了的好，常有自杀念头，认为自杀是一种可能的自我解决的方法，但尚无切实的自杀计划</choice>
-		<choice>介于上下两者之间</choice>
+		<choice>介于上下两者(5,7)之间</choice>
 		<choice>已拟适合时机的自杀计划，并积极准备</choice>
 	</question>
 </scale>

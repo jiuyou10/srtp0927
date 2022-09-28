@@ -28,6 +28,7 @@ import {
   generateCPOReport,
   generatePTEDReport,
   generateNTTReport,
+  generateMADRSReport
 } from "./reportSnippit";
 
 const generateReport = (
@@ -136,6 +137,10 @@ const generateReport = (
     }
 	case "PTED": {
       content = generatePTEDReport(result, dateString);
+      break;
+    }
+    case "madrs": {
+      content = generateMADRSReport(result, dateString);
       break;
     }
 	case "NTT": {

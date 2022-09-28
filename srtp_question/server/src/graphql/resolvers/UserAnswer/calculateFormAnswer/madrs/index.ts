@@ -2,14 +2,18 @@ import { ObjectId } from "bson";
 import { Answer } from "../..";
 import { Database } from "../../../../../lib/type";
 
-export const calculateMadrsResult = async (
+export const calculateMADRSResult = async (
   answer: Answer,
   db: Database,
   userId: ObjectId
 ) => {
   let total = 0;
+ // console.log("choice: "+answer.answers);
   for (const choice of answer.answers) {
-    total += choice;
+    
+    
+      total+=choice
+    
   }
   await db.users.findOneAndUpdate(
     { _id: userId },

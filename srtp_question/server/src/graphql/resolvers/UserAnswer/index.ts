@@ -31,6 +31,7 @@ import {
   calculateCPOResult,
   calculatePTEDResult,
   calculateNTTResult,
+  calculateMADRSResult,
 } from "./calculateFormAnswer";
 
 export interface Answer {
@@ -126,6 +127,11 @@ const calculateResult = async (
       }
 	  case "CPO": {
         const result = await calculateCPOResult(answer, db, userId);
+        return JSON.stringify(result);
+      }
+    case "madrs": {
+      
+        const result = await calculateMADRSResult(answer, db, userId);
         return JSON.stringify(result);
       }
 	  case "PTED": {

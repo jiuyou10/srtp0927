@@ -1,20 +1,21 @@
-export function generateMadrsReport(
+export function generateMADRSReport(
     result:number|string,
     dateString:string
 ){
     let prompt="";
-    if(typeof result ==="number"){
-        if(result>=0&&result<12)
+    if(typeof +result === "number"){
+        console.log("是数字"+result)
+        if(result >= 0 &&result < 12)
         {
             prompt="缓解期";
-        }else if(result>=12&&result <22){
+        }else if(result >= 12 && result < 22){
             prompt="轻度";
 
-        }else if(result >=22&&result<30){
+        }else if(result >= 22 && result < 30){
             prompt="中度";
-        }else if(result>=30&&result<35){
+        }else if(result >= 30 && result < 35){
             prompt="重度";
-        }else if(result>=35)
+        }else if(result >= 35)
         {
             prompt="极重度";
         }
@@ -23,6 +24,7 @@ export function generateMadrsReport(
         }
     }
     else{
+        console.log("不是数字"+result)
         throw new Error("Result is not a number");
     }
     return `
